@@ -4,6 +4,8 @@ import logo from "../../images/logo.png";
 
 
 import "./style.css";
+import {Link} from "gatsby";
+import Layout from "../../pages";
 
 const Footer = () => (
 
@@ -27,7 +29,7 @@ const Footer = () => (
                     <div className="col-lg-3 col-xs-12 links">
                     <h4 className="mt-lg-0 mt-sm-3">Links</h4>
                     <ul className="m-0 p-0">
-                        <li>- <a href="#">Impressum</a></li>
+                        <li>-  <Link to="/impressum/">Impressum</Link></li>
                         <li>- <a href="#">Datenschutzerklärung</a></li>
                     </ul>
                 </div>

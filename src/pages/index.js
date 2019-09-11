@@ -14,16 +14,14 @@ import Footer from "../components/footer"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Home"/>
-        <Menu/>
-        <Header/>
+        <SEO title="Home" />
+        <Menu />
+        <Header />
         <Leistungen />
         <Wordpress />
         <Portfolio />
         <Formular />
-
-        <Link to="/page-2/">Go to page 2</Link>
-        <Footer/>
+        <Footer />
     </Layout>
 )
 

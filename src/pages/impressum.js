@@ -76,7 +76,6 @@ const SecondPage = () => (
 
             </div>
         </Container>
-        <Link to="/#wordpress">Go to page 2</Link>
         <Footer/>
     </Layout>
 )
