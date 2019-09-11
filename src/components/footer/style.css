@@ -1,5 +1,14 @@
 .footer {
-    background: #7E818482;
+    background: #393D441C;
+    background-color: rgba(57, 61, 68, 0.11);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
     color: #535353;
 }
 .footer .links ul {
