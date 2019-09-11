@@ -18,6 +18,7 @@ import Plugin from "../../images/plug-silhouette.svg"
 const Leistungen = () => {
 
     return (
+        <div id={"leistungen"}>
         <Container>
 
             <Container fluid>
@@ -129,6 +130,7 @@ const Leistungen = () => {
             </Container>
 
         </Container>
+        </div>
 
     )
         ;

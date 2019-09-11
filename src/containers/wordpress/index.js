@@ -12,6 +12,7 @@ import Screen from "../../images/monitor.svg";
 const wordpress = () => {
 
     return (
+<div id={"wordpress"}>
         <Container>
             <Row>
 
@@ -126,6 +127,7 @@ const wordpress = () => {
                 </Col>
             </Row>
         </Container>
+</div>
 
     );
 };

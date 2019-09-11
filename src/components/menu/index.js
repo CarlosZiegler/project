@@ -27,7 +27,6 @@ const Menu = () => {
                     <Nav>
                         <Nav.Link href="/#leistungen">Leistungen</Nav.Link>
                         <Nav.Link href="/#wordpress">Wordpress</Nav.Link>
-                        <Nav.Link href="/#freelancing">Freelancing</Nav.Link>
                         <Nav.Link href="/#portfolio">Portfolio</Nav.Link>
                         <Nav.Link href="/#testimonials">Testimonials</Nav.Link>
                         <Nav.Link href="/#kontakt">Kontakt</Nav.Link>

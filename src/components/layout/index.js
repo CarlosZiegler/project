@@ -7,15 +7,17 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import {useStaticQuery, graphql} from "gatsby"
 
 import Header from "../header"
 import Menu from "../menu"
 import Footer from "../footer"
 
+import Particles from "react-particles-js"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
+
+const Layout = ({children}) => {
+    const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
@@ -26,24 +28,17 @@ const Layout = ({ children }) => {
   `)
 
 
-
-  return (
-    <>
-      <Menu/>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div>
-        <main>{children}</main>
-        <footer>
-            <Footer/>
-        </footer>
-
-      </div>
-    </>
-  )
+    return (
+        <>
+            <div>
+                <main>{children}</main>
+            </div>
+        </>
+    )
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+    children: PropTypes.node.isRequired,
 }
 
 export default Layout
