@@ -1,0 +1,27 @@
+
+
+div{
+    margin: 0;
+    padding: -5%;
+    font-family: exo, sans-serif;
+
+}
+.card-img-top {
+
+    width: 50%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 5%;
+
+}
+.card-deck {
+
+    margin-bottom: 2%;
+
+}
+
+
