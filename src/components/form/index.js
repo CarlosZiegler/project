@@ -1,12 +1,12 @@
 import React from "react"
 
 
-import {Container, Form, Button, Col, Row, CardDeck, Card, Image} from 'react-bootstrap';
+import {Container, Form, Button, Col, Row, Image} from 'react-bootstrap';
 
 
 import "./style.css";
 import ContactImage from "../../images/contactImage.jpg";
-import Freelancer from "../../images/freelancer.jpg";
+
 
 const Formular = () => (
     <div id={"kontakt"}>
@@ -38,8 +38,6 @@ const Formular = () => (
             </Row>
         </Container>
     </div>
-
-
 )
 
 
