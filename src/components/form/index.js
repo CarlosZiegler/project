@@ -1,8 +1,6 @@
 import React from "react"
 
-
 import {Container, Form, Button, Col, Row, Image} from 'react-bootstrap';
-
 
 import "./style.css";
 import ContactImage from "../../images/contactImage.jpg";
