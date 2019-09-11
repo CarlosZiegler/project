@@ -1,0 +1,39 @@
+.footer {
+    background: #7E818482;
+    color: #535353;
+}
+.footer .links ul {
+    list-style-type: none;
+}
+.footer .links li a {
+    color: #535353;
+    transition: color .2s;
+}
+.footer .links li a:hover {
+    text-decoration: none;
+    color: #4180CB;
+}
+.footer .about-company i {
+    font-size: 25px;
+    color: #535353;
+
+}
+.footer .about-company a {
+    color: #535353;
+    transition: color .2s;
+}
+.footer .about-company a:hover {
+    color: #535353;
+}
+.footer .location i {
+    font-size: 18px;
+}
+.footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #535353;
+
+}
+.textCopyright{
+    color: #535353;
+}
+
