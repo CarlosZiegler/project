@@ -72,8 +72,6 @@ const SecondPage = () => (
                 <span>Quellenangabe: https://www.e-recht24.de</span>
                 <h3>Copyright-Vermerk</h3>
                 <p>Grafiken: www.vecteezy.com</p>
-
-
             </div>
         </Container>
         <Footer/>

@@ -5,7 +5,7 @@ import logo from "../../images/logo.png";
 
 import "./style.css";
 import {Link} from "gatsby";
-import Layout from "../../pages";
+
 
 const Footer = () => (
 
@@ -21,10 +21,12 @@ const Footer = () => (
                 </div>
                 <div className="col-lg-4 col-xs-12 location">
                     <h4 className="mt-lg-0 mt-sm-4">Location</h4>
-                    <p>Am Studio 2a, 12489 Berlin - Deutschland</p>
-                    <p className="mb-0">+49 (0)30 374 348 14</p>
-                    <p>info@visyu.de</p>
-                    <p></p>
+                    <ul className="m-0 p-0">
+                        <li>Am Studio 2a, 12489 Berlin</li>
+                        <li>Deutschland</li>
+                        <li>+49 (0)30 374 348 14</li>
+                        <li>info@visyu.de</li>
+                    </ul>
                 </div>
                     <div className="col-lg-3 col-xs-12 links">
                     <h4 className="mt-lg-0 mt-sm-3">Links</h4>
