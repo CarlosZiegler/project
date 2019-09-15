@@ -1,5 +1,5 @@
 .carousel .slide img {
-    width: 60%;
+    width: 60% !important;
     vertical-align: top;
     border: 0; 
 }
