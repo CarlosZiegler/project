@@ -1,6 +1,8 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 
+import "./style.css";
+
 export default () => (
     <Carousel autoPlay infiniteLoop  >
         <div>
