@@ -18,12 +18,21 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         // your wordpress source
-        baseUrl: `localhost/~carlos/Projekts/visyu/wordpress/`,
-        protocol: `http`,
+        baseUrl: `visyu.de`,
+        protocol: `https`,
         // is it hosted on wordpress.com, or self-hosted?
         hostingWPCOM: false,
         // does your site use the Advanced Custom Fields Plugin?
-        useACF: false
+        useACF: false,
+        includedRoutes: [
+          //"**/categories",
+          "**/posts",
+          //
+          // "**/media",
+          // "**/tags",
+          // "**/taxonomies",
+          // "**/users",
+        ],
       }
     },
     `gatsby-transformer-sharp`,
