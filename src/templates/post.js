@@ -1,25 +1,15 @@
 import React from 'react';
 import PropType from 'prop-types';
 import Helmet from 'react-helmet';
-import Img from 'gatsby-image';
 import { graphql, Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from "../components/seo"
 import Menu from "../components/menu";
 import Footer from "../components/footer"
-import Image from "react-bootstrap/Image";
 
-// const stripHtml = (html) => {
-//   if (typeof window !== 'undefined') {
-//     const doc = new DOMParser().parseFromString(html, 'text/html');
-//     return doc.body.textContent || '';
-//   }
-//   return html;
-// };
 const PostTemplate = (props) => {
     const { data: { wordpressPost: post } } = props;
-    const thumbs = post.featured_media
     return (
         <Layout>
             <SEO title="Page two"/>

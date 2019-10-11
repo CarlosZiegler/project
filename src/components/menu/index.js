@@ -6,6 +6,7 @@
  */
 
 import React from "react"
+import { slide  } from 'react-burger-menu'
 
 import {Nav, Navbar} from "react-bootstrap";
 import logo from "../../images/logo.png";
@@ -14,6 +15,7 @@ const Menu = () => {
 
     return (
         <>
+
             <Navbar sticky={"top"} collapseOnSelect expand="lg" bg="transparent">
                 <Navbar.Brand href="/">
                     <img

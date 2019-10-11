@@ -27,7 +27,6 @@ const Blog = () => (
             <Layout>
                 <SEO title="Page two"/>
                 <Menu/>
-
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
