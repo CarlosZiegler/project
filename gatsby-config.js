@@ -25,13 +25,14 @@ module.exports = {
         // does your site use the Advanced Custom Fields Plugin?
         useACF: false,
         includedRoutes: [
-          //"**/categories",
+          "**/categories",
           "**/posts",
+          "**/blog",
           //
-          // "**/media",
-          // "**/tags",
-          // "**/taxonomies",
-          // "**/users",
+           "**/media",
+           "**/tags",
+           "**/taxonomies",
+           "**/users"
         ],
       }
     },
@@ -46,7 +47,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
 
     },
