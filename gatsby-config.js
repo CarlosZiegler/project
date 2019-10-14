@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Visyu Solution`,
+    description: `Wir bieten Ihnen Lösungen für jedes Endgerät. Egal ob Desktop, Laptop, TV oder mobil. Unsere Web- und App-Lösungen passen zu Ihren Bedürfnissen.`,
+    author: `@visyu`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

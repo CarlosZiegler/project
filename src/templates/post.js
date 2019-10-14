@@ -7,9 +7,11 @@ import Layout from '../components/layout';
 import SEO from "../components/seo"
 import Menu from "../components/menu";
 import Footer from "../components/footer"
+import './style.css'
 
 const PostTemplate = (props) => {
     const { data: { wordpressPost: post } } = props;
+
     return (
         <Layout>
             <SEO title={post.title}/>
@@ -21,7 +23,7 @@ const PostTemplate = (props) => {
                 ]}
             />
 
-            <article>
+            <article className={'content'}>
                     <div className="background-bar">
 
                     </div>

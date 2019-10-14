@@ -1,10 +1,12 @@
 import React from 'react';
-import Img from 'gatsby-image';
+
 import { StaticQuery, graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from "../components/seo"
 import Menu from "../components/menu";
 import Footer from "../components/footer"
+import "./pageStyle.css";
+import Image from "react-bootstrap/Image";
 
 
 const Blog = () => (
@@ -17,7 +19,13 @@ const Blog = () => (
             date(formatString: "DD, MMM YYYY")
             title
             excerpt
+            featured_media {
+                localFile {
+                url
+                }
+             }
             slug
+
           }
         }
       }
@@ -25,26 +33,20 @@ const Blog = () => (
   `}
         render={data => (
             <Layout>
-                <SEO title="Page two"/>
+                <SEO title="Blog"/>
                 <Menu/>
-                <div className="container">
+                <div className="container content">
+                    <h2>Blog</h2>
                     <div className="row">
                         <div className="col col-xs-12">
                             <div className="blog-grids">
                                 {data.allWordpressPost.edges.map(({ node }) => (
                                     <div key={node.slug} className="grid">
                                         <div className="entry-media">
-                                            { node.featured_media && (
-                                                <Img
-                                                    src={node.featured_media.localFile.childImageSharp.sizes.src}
-                                                    sizes={node.featured_media.localFile.childImageSharp.sizes}
-                                                    alt="blog_image_one"
-                                                    className="img-fluid"
-                                                />
-                                            )}
+                                            {console.log(node)}
+                                            <Image src={node.featured_media.localFile.url} className={'thumbnailPost'}/>
                                         </div>
                                         <div className="entry-body">
-
                                             <span className="cat">{node.categories && node.categories.map(category => `${category.name}, `)}</span>
                                             <h3><Link to={`/${node.slug}`} dangerouslySetInnerHTML={{ __html: node.title }} /></h3>
                                             <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />

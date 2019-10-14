@@ -1,19 +1,19 @@
 import React from "react"
-import {Link} from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Menu from "../components/menu";
 import Footer from "../components/footer"
 import {Container} from "react-bootstrap";
+import "./pageStyle.css";
+
 
 const SecondPage = () => (
     <Layout>
-        <SEO title="Page two"/>
+        <SEO title="Impressum"/>
         <Menu/>
-        <Container>
+        <Container className={'content'} >
             <div>
-
                 <h1>Impressum</h1>
                 <p>Visyu Solution
                    Felix Griewald
