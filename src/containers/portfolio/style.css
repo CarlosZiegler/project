@@ -1,9 +1,9 @@
 .carousel .slide img {
-    width: 60%;
-    vertical-align: center;
+    width: 60% !important;
+    vertical-align: center !important;
     horiz-align: center;
     border: 0;
 }
 .carousel .slide{
-    background: white;
+    background: transparent !important;
 }
