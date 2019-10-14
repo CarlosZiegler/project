@@ -1,7 +1,7 @@
 .navbar {
     padding-left: 15%;
     padding-right: 10%;
-    margin-top: -40px;
+
 
 }
 .jumbotron {
@@ -11,7 +11,7 @@
     background-size: cover;
     height: 100vh;
     background-color:transparent !important;
-    margin-top: -5%;
+
 }
 @media only screen and (max-width: 1180px) {
     .jumbotron {
@@ -20,7 +20,7 @@
         background-size: cover;
         height: 100vh;
         background-color:transparent !important;
-        margin-top: -10%;
+
     }
 }
 @media only screen and (max-width: 580px) {
@@ -30,7 +30,7 @@
         background-size: cover;
         height: 100vh;
         background-color:transparent !important;
-        margin-top: -15%;
+
     }
 }
 @media only screen and (max-width: 580px) {
@@ -40,6 +40,6 @@
         background-size: cover;
         height: 100vh;
         background-color:transparent !important;
-        margin-top: -20%;
+
     }
 }

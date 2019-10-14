@@ -15,7 +15,6 @@ const Menu = () => {
 
     return (
         <>
-
             <Navbar sticky={"top"} collapseOnSelect sticky="top" expand="lg" bg="light">
                 <Navbar.Brand href="/">
                     <img
@@ -30,13 +29,12 @@ const Menu = () => {
                         <Nav.Link href="/#leistungen">Leistungen</Nav.Link>
                         <Nav.Link href="/#wordpress">Wordpress</Nav.Link>
                         <Nav.Link href="/#portfolio">Portfolio</Nav.Link>
-                        <Nav.Link href="/#testimonials">Testimonials</Nav.Link>
                         <Nav.Link href="/blog">Blog</Nav.Link>
+                        <Nav.Link href="/jobs">Jobs</Nav.Link>
                         <Nav.Link href="/#kontakt">Kontakt</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-
         </>
     )
 }

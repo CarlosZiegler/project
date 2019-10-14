@@ -28,7 +28,7 @@ const BannerBox = () => {
             
             <Col lg={6}>
                 <p>Interesse an einer professionellen WordPress-Website?</p>
-                <Button className="button__wrapper" variant="outline-primary">Jetzt Kontaktieren</Button>
+                <Button className="button__wrapper" variant="outline-primary" ><a href={'/#kontakt'} className="button__wrapper">Jetzt Kontaktieren</a></Button>
             </Col>
         </BannerWrapper>
         </div>
