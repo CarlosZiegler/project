@@ -37,6 +37,7 @@ const Blog = () => (
                 <Menu/>
                 <div className="container content">
                     <h2>Blog</h2>
+
                     <div className="row">
                         <div className="col col-xs-12">
                             <div className="blog-grids">
@@ -61,7 +62,6 @@ const Blog = () => (
                         </div>
                     </div>
                 </div>
-                <Link to="/">Go Back</Link>
                 <Footer/>
             </Layout>)
         }

@@ -6,7 +6,6 @@
  */
 
 import React from "react"
-import { slide  } from 'react-burger-menu'
 
 import {Nav, Navbar} from "react-bootstrap";
 import logo from "../../images/logo.png";

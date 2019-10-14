@@ -12,7 +12,6 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
-
     },
     {
       resolve: `gatsby-source-wordpress`,
@@ -28,7 +27,6 @@ module.exports = {
           "**/categories",
           "**/posts",
           "**/blog",
-          //
            "**/media",
            "**/tags",
            "**/taxonomies",
