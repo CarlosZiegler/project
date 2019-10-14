@@ -15,6 +15,7 @@ import Plugin from "../../images/plug-silhouette.svg"
 
 
 
+
 const Leistungen = () => {
 
     return (
@@ -31,8 +32,7 @@ const Leistungen = () => {
             </Container>
             <Container fluid>
                 <CardDeck>
-                    <Card style={{ width: '38rem' }}>
-
+                    <Card>
                         <Card.Img variant="top" src={Wordpress} />
                         <Card.Body>
                             <Card.Title><h3>CMS</h3></Card.Title>

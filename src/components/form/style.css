@@ -1,0 +1,10 @@
+#kontakt{
+    margin-top: 30px !important;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .formEmail{
+        margin-top: 30px !important;
+    }
+}

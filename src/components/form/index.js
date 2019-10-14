@@ -11,11 +11,11 @@ const Formular = () => (
         <Container>
             <h3 className={"text-center"}>Kontakt</h3>
             <Row>
-                <Col>
+                <Col lg={true} xs={12}>
                     <Image fluid src={ContactImage} width={"100%"}/>
                 </Col>
-                <Col>
-                    <Form>
+                <Col lg={true} xs>
+                    <Form className={'formEmail'}>
                         <Form.Group controlId="formBasicPassword">
                             <Form.Label>Ihre Name</Form.Label>
                             <Form.Control type="text" placeholder="Enter email"/>

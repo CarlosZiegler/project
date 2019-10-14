@@ -1,5 +1,5 @@
 import React from "react"
-import {Image, Container} from "react-bootstrap";
+import {Image} from "react-bootstrap";
 import logo from "../../images/logo.png";
 
 
@@ -14,8 +14,7 @@ const Footer = () => (
             <div className="row">
                 <div className="col-lg-5 col-xs-12 about-company">
                     <Image src={logo}/>
-                    <p className="pr-5 textCopyright">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
-                                                      ante mollis quam tristique convallis </p>
+                    <p className="pr-5 textCopyright">Wir sind eine Webagentur in Berlin-Adlershof und haben unseren Standort direkt auf dem WISTA-Gelände kurz hinter dem S-Bahnhof Adlershof. </p>
                     <p><a href="#"><i className="fa fa-facebook-square mr-1"></i></a><a href="#"><i
                         className="fa fa-linkedin-square"></i></a></p>
                 </div>

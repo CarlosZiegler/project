@@ -16,7 +16,7 @@ const Menu = () => {
     return (
         <>
 
-            <Navbar sticky={"top"} collapseOnSelect expand="lg" bg="transparent">
+            <Navbar sticky={"top"} collapseOnSelect sticky="top" expand="lg" bg="light">
                 <Navbar.Brand href="/">
                     <img
                         src={logo}

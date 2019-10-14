@@ -8,3 +8,12 @@
     border: 0px ;
 
 }
+#wordpress{
+    margin-top: 30px !important;
+}
+
+@media only screen and (max-width: 576px) {
+    .title{
+        margin-top: 30px !important;
+    }
+}

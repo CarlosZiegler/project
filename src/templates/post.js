@@ -12,7 +12,7 @@ const PostTemplate = (props) => {
     const { data: { wordpressPost: post } } = props;
     return (
         <Layout>
-            <SEO title="Page two"/>
+            <SEO title={post.title}/>
             <Menu/>
             <Helmet
                 title={post.title}

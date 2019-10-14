@@ -1,7 +1,7 @@
 
 
 div{
-    margin: 0;
+    margin: 0px;
     padding: -5%;
     font-family: exo, sans-serif;
 
@@ -25,3 +25,8 @@ div{
 }
 
 
+@media only screen and (max-width: 576px) {
+    #leistungen{
+        margin-top: 30px !important;
+    }
+}

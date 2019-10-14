@@ -15,13 +15,12 @@ const wordpress = () => {
 <div id={"wordpress"}>
         <Container>
             <Row>
-
-                <Col>
+                <Col lg={true} xs>
                     <Image fluid src={ImageWordpress} width={"100%"} id={"logo"}/>
                 </Col>
-                <Col>
+                <Col lg={true} >
                     <Row>
-                        <Container>
+                        <Container className={"title"}>
                             <h3 className="text-center">WordPress Leistungen</h3>
                             <p className="text-justify">
                                 Durch unsere profunden Kenntnisse im Bereich WordPress konnten wir schon unzählige
@@ -75,9 +74,12 @@ const wordpress = () => {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col lg={{ order: 12 }}  xs={true}>
+                    <Image fluid src={Freelancer} width={"100%"}/>
+                </Col >
+                <Col  lg={true} xs={12}>
                     <Row>
-                        <Container>
+                        <Container className={"title"}>
                             <h3 className="text-center">Freelancing</h3>
                             <p className="text-justify">
                                 Sie benötigen einen Entwickler für Ihr Webprojekt? Auch dann sind Sie bei uns an der
@@ -91,13 +93,13 @@ const wordpress = () => {
                                 <Card className={"cardNoBorder"}>
                                     <Card.Img variant="top" src={Wordpress}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>ENTWICKLUNG</h6></Card.Title>
+                                        <Card.Title className="text-center"><h6>CMS</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
                                     <Card.Img variant="top" src={Screen}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>PROJEKTMANAGEMENT</h6></Card.Title>
+                                        <Card.Title className="text-center"><h6>Design</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                             </CardDeck>
@@ -109,22 +111,20 @@ const wordpress = () => {
                                 <Card className={"cardNoBorder"}>
                                     <Card.Img variant="top" src={Wordpress}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>SEITENAUFBAU</h6></Card.Title>
+                                        <Card.Title className="text-center"><h6>CMS</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
                                     <Card.Img variant="top" src={Screen}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>SUPPORT</h6></Card.Title>
+                                        <Card.Title className="text-center"><h6>Design</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                             </CardDeck>
                         </Container>
                     </Row>
                 </Col>
-                <Col>
-                    <Image fluid src={Freelancer} width={"100%"}/>
-                </Col>
+
             </Row>
         </Container>
 </div>
