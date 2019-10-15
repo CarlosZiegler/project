@@ -22,48 +22,48 @@ const JobsPage = () => (
                    stetig wachsender Kundenstamm verlässt sich auf unsere Qualität und Zuverlässigkeit. Um unsere
                    Qualität beibehalten zu können, suchen wir nun Verstärkung.
                 </p>
-                <h3>Was wir dir bieten</h3>
+                <h4>Was wir dir bieten</h4>
                 <ul>
-                    <ol>Spannende Aufgaben im Bereich Webentwicklung</ol>
-                    <ol>Kommunikation direkt mit den Kunden und Teilnahme an Meetings</ol>
-                    <ol>Mitwirkung am kreativen Prozess bei der Umsetzung neuer Projekte</ol>
-                    <ol>Ein offenes Ohr für neue Ideen</ol>
-                    <ol>Flexible Arbeitszeiten</ol>
-                    <ol>Kostenlose Snacks, Getränke, Teamevents und Spaß bei der Arbeit</ol>
-                    <ol>Ab und zu Tischtennis, Basketball oder (W)LAN-Parties</ol>
-                    <ol>Bezahlung</ol>
+                    <li>-Spannende Aufgaben im Bereich Webentwicklung</li>
+                    <li>-Kommunikation direkt mit den Kunden und Teilnahme an Meetings</li>
+                    <li>-Mitwirkung am kreativen Prozess bei der Umsetzung neuer Projekte</li>
+                    <li>-Ein offenes Ohr für neue Ideen</li>
+                    <li>-Flexible Arbeitszeiten</li>
+                    <li>-Kostenlose Snacks, Getränke, Teamevents und Spaß bei der Arbeit</li>
+                    <li>-Ab und zu Tischtennis, Basketball oder (W)LAN-Parties</li>
+                    <li>-Bezahlung</li>
                 </ul>
-                <h3>Was du bei uns machst</h3>
+                <h4>Was du bei uns machst</h4>
                 <ul>
-                    <ol>Entwickeln mit verschiedenen Frameworks und Content Management Systemen</ol>
-                    <ol>Auf Wunsch Entwicklung im Frontend, Backend oder beidem</ol>
-                    <ol>Teilnahme an Meetings mit Kunden</ol>
-                    <ol>Erstellung von Projektplänen und Projektmanagement</ol>
-                    <ol>Neue interessante Themen erarbeiten, neue Technologien recherchieren</ol>
-                    <ol>Support</ol>
-                    <ol>Tagesgeschäft</ol>
+                    <li>-Entwickeln mit verschiedenen Frameworks und Content Management Systemen</li>
+                    <li>-Auf Wunsch Entwicklung im Frontend, Backend oder beidem</li>
+                    <li>-Teilnahme an Meetings mit Kunden</li>
+                    <li>-Erstellung von Projektplänen und Projektmanagement</li>
+                    <li>-Neue interessante Themen erarbeiten, neue Technologien recherchieren</li>
+                    <li>-Support</li>
+                    <li>-Tagesgeschäft</li>
                 </ul>
-                <h3>Was du können solltest</h3>
+                <h4>Was du können solltest</h4>
                 <ul>
-                    <ol>Du hast gute Kenntnisse in der Entwicklung mit PHP, JavaScript, HTML und CSS</ol>
-                    <ol>Du hast idealerweise Kenntnisse in der Entwicklung mit WordPress, Joomla, Symfony, jQuery ODER
+                    <li>-Du hast gute Kenntnisse in der Entwicklung mit PHP, JavaScript, HTML und CSS</li>
+                    <li>-Du hast idealerweise Kenntnisse in der Entwicklung mit WordPress, Joomla, Symfony, jQuery ODER
                         Angular
                         (wir freuen uns auch über andere Web-Technologien)
-                    </ol>
-                    <ol>Du hast vielleicht sogar schon mal mit Linux (idealerweise Ubuntu) gearbeitet</ol>
-                    <ol>Du zeigst eine hohe Lernbereitschaft in Bezug auf neue Frameworks, Content Management Systeme,
+                    </li>
+                    <li>-Du hast vielleicht sogar schon mal mit Linux (idealerweise Ubuntu) gearbeitet</li>
+                    <li>-Du zeigst eine hohe Lernbereitschaft in Bezug auf neue Frameworks, Content Management Systeme,
                         Libraries
                         etc.
-                    </ol>
-                    <ol>Du hast Spaß am Programmieren</ol>
-                    <ol>Du arbeitest strukturiert</ol>
-                    <ol> Du denkst mit</ol>
-                    <ol>Du bist offen und kommunikativ</ol>
-                    <ol> Du bist zuverlässig und pünktlich</ol>
-                    <ol>Du legst Wert auf Qualität</ol>
-                    <ol>Idealerweise studierst du in einem Informatik-nahen Studiengang oder machst gerade eine
+                    </li>
+                    <li>-Du hast Spaß am Programmieren</li>
+                    <li>-Du arbeitest strukturiert</li>
+                    <li>-Du denkst mit</li>
+                    <li>-Du bist offen und kommunikativ</li>
+                    <li>-Du bist zuverlässig und pünktlich</li>
+                    <li>-Du legst Wert auf Qualität</li>
+                    <li>-Idealerweise studierst du in einem Informatik-nahen Studiengang oder machst gerade eine
                         entsprechende Ausbildung
-                    </ol>
+                    </li>
                 </ul>
                 <p>Wir suchen übrigens nicht die Eier-legende Wollmilchsau. Du kannst uns gerne sagen, in welchem
                    Bereich

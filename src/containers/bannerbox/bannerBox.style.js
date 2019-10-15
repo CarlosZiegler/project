@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 const BannerWrapper = styled.section`
-  padding-top: 280px;
+  padding-top: 350px;
   padding-bottom: 160px;
   overflow: hidden;
   @media only screen and (min-width: 1367px) {
@@ -12,7 +12,7 @@ const BannerWrapper = styled.section`
         }
   }
   @media (max-width: 990px) {
-    padding-top: 150px;
+    padding-top: 350px;
     padding-bottom: 100px;
     
     h2{
