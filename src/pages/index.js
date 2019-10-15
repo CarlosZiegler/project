@@ -41,7 +41,6 @@ const IndexPage = () => (
             der von uns verwendeten Arten von Cookies zu erhalten und um zu entscheiden, welche Arten von Cookies bei
             der Nutzung unserer Website gesetzt werden sollen. <a href={"/datenschutzerklaerung/"}>Mehr auf Datenschutzerklärung</a>{""}
 
-
         </CookieConsent>
     </Layout>
 )
