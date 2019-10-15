@@ -20,10 +20,18 @@ div{
 
     margin-bottom: 2%;
 
+
 }
 
 @media only screen and (max-width: 576px) {
     #leistungen{
         margin-top: 30px !important;
     }
+}
+
+
+.grid-container {
+    display: grid; /* or inline-grid */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1em;
 }

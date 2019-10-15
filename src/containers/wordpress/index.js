@@ -27,7 +27,7 @@ const wordpress = () => {
                 <Col lg={true} >
                     <Row>
                         <Container className={"title"}>
-                            <h3 className="text-center">WordPress Leistungen</h3>
+                            <h3 className="text-center title">WordPress Leistungen</h3>
                             <p className="text-justify">
                                 Durch unsere profunden Kenntnisse im Bereich WordPress konnten wir schon unzählige
                                 Projekte
