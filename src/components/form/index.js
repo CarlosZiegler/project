@@ -15,14 +15,14 @@ const Formular = () => (
                     <Image fluid src={ContactImage} width={"100%"}/>
                 </Col>
                 <Col lg={true} xs>
-                    <Form className={'formEmail'}>
-                        <Form.Group controlId="formBasicPassword">
+                    <Form className={'formEmail'} action="https://formspree.io/xdqbvvrm" method="POST" >
+                        <Form.Group controlId="name" >
                             <Form.Label>Ihre Name</Form.Label>
-                            <Form.Control type="text" placeholder="Enter email"/>
+                            <Form.Control type="text" placeholder="Enter name" name={"name"}/>
                         </Form.Group>
-                        <Form.Group controlId="formBasicEmail">
+                        <Form.Group controlId="_replyto">
                             <Form.Label>Ihre Email*</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email"/>
+                            <Form.Control type="email" placeholder="Enter email" name={"_replyto"}/>
                         </Form.Group>
                         <Form.Group controlId="exampleForm.ControlTextarea1">
                             <Form.Label>Ihre Nachricht*</Form.Label>
