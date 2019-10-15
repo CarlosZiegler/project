@@ -17,8 +17,6 @@ const Footer = () => (
                     <p className="pr-5 textCopyright">Wir sind eine Webagentur in Berlin-Adlershof und haben unseren
                                                       Standort direkt auf dem WISTA-Gelände kurz hinter dem S-Bahnhof
                                                       Adlershof. </p>
-                    <p><a href="#"><i className="fa fa-facebook-square mr-1"></i></a><a href="#"><i
-                        className="fa fa-linkedin-square"></i></a></p>
                 </div>
                 <div className="col-lg-2 col-xs-12 location">
                     <h4 className="mt-lg-0 mt-sm-4">Location</h4>
@@ -32,8 +30,8 @@ const Footer = () => (
                 <div className="col-lg-2 col-xs-12 links">
                     <h4 className="mt-lg-0 mt-sm-3">Links</h4>
                     <ul className="m-0 p-0">
-                        <li>-<Link to="/impressum/">Impressum</Link></li>
-                        <li>-<Link to="/datenschutzerklaerung/">Datenschutzerklärung</Link></li>
+                        <li>- <Link to="/impressum/">Impressum</Link></li>
+                        <li>- <Link to="/datenschutzerklaerung/">Datenschutzerklärung</Link></li>
                     </ul>
                 </div>
                 <div className="col-lg-2 col-xs-12 links">

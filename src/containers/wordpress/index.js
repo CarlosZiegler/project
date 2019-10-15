@@ -3,10 +3,16 @@ import {Col, Row, Container, Image, CardDeck, Card} from "react-bootstrap";
 
 
 import "./style.css"
-import ImageWordpress from "../../images/wordpressImage.png"
-import Freelancer from "../../images/freelancer.jpg"
-import Wordpress from "../../images/Wordpress-Logo.svg";
-import Screen from "../../images/monitor.svg";
+import ImageWordpress from "../../images/wordpressImage.png";
+import Freelancer from "../../images/freelancer.jpg";
+import Themes from "../../images/drawing-compass.png"
+import Plugins from "../../images/plug-silhouette.png";
+import Sicherheit from "../../images/locked-padlock.png";
+import Pflegsystem from "../../images/cardiogram.png";
+import Entwicklung from "../../images/command-line.png";
+import Projektmanagement from "../../images/project.png";
+import Seitenaufbau from "../../images/domain.png";
+import Support from "../../images/help.png";
 
 
 const wordpress = () => {
@@ -27,11 +33,7 @@ const wordpress = () => {
                                 Projekte
                                 erfolgreich realisieren – sei es eine Landingpage, eine Unternehmens-Webseite oder auch
                                 ein
-                                Online-Shop. WordPress-Experte zu sein, bedeutet für uns jedoch mehr als die
-                                Installation eines
-                                standardisierten WordPress-Systems, sondern vielmehr die konzeptionelle Erarbeitung
-                                Ihrer
-                                Webseite, angepasst an die Bedürfnisse Ihrer Zielgruppe.
+                                Online-Shop.
                             </p>
                         </Container>
                     </Row>
@@ -39,15 +41,15 @@ const wordpress = () => {
                         <Container fluid>
                             <CardDeck>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Wordpress}/>
+                                    <Card.Img variant="top" src={Plugins}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>CMS</h6></Card.Title>
+                                        <Card.Title className="text-center"><h6>Plugins</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Screen}/>
+                                    <Card.Img variant="top" src={Themes}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>Design</h6></Card.Title>
+                                        <Card.Title className="text-center"><h6>Themes</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                             </CardDeck>
@@ -57,15 +59,15 @@ const wordpress = () => {
                         <Container fluid>
                             <CardDeck>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Wordpress}/>
+                                    <Card.Img variant="top" src={Sicherheit}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>CMS</h6></Card.Title>
+                                        <Card.Title className="text-center"><h6>Sicherheit</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Screen}/>
+                                    <Card.Img variant="top" src={Pflegsystem}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>Design</h6></Card.Title>
+                                        <Card.Title className="text-center"><h6>Pflegsystem</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                             </CardDeck>
@@ -91,15 +93,15 @@ const wordpress = () => {
                         <Container fluid>
                             <CardDeck>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Wordpress}/>
+                                    <Card.Img variant="top" src={Entwicklung}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>CMS</h6></Card.Title>
+                                        <Card.Title className="text-center"><h6>Entwicklung</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Screen}/>
+                                    <Card.Img variant="top" src={Projektmanagement}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>Design</h6></Card.Title>
+                                        <Card.Title className="text-center"><h6>Projektmanagement</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                             </CardDeck>
@@ -109,15 +111,15 @@ const wordpress = () => {
                         <Container fluid>
                             <CardDeck>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Wordpress}/>
+                                    <Card.Img variant="top" src={Seitenaufbau}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>CMS</h6></Card.Title>
+                                        <Card.Title className="text-center"><h6>Seitenaufbau</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Screen}/>
+                                    <Card.Img variant="top" src={Support}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>Design</h6></Card.Title>
+                                        <Card.Title className="text-center"><h6>Support</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                             </CardDeck>

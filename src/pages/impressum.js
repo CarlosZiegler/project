@@ -8,7 +8,7 @@ import {Container} from "react-bootstrap";
 import "./pageStyle.css";
 
 
-const SecondPage = () => (
+const Impressum = () => (
     <Layout>
         <SEO title="Impressum"/>
         <Menu/>
@@ -72,10 +72,11 @@ const SecondPage = () => (
                 <span>Quellenangabe: https://www.e-recht24.de</span>
                 <h3>Copyright-Vermerk</h3>
                 <p>Grafiken: www.vecteezy.com</p>
+                <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a></p>
             </div>
         </Container>
         <Footer/>
     </Layout>
 )
 
-export default SecondPage
+export default Impressum
