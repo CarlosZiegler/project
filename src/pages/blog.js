@@ -34,7 +34,7 @@ const Blog = () => (
     }
   `}
         render={data => (
-            <Layout>
+            <Layout id={"content"}>
                 <SEO title="Blog"/>
                 <Menu/>
                 <div className="container content">

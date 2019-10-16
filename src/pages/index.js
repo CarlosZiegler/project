@@ -11,6 +11,20 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import CookieConsent from "react-cookie-consent";
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.backgroundColor = "rgb(228, 227, 227)";
+        document.getElementById("navbar").style.fontWeight = "bold";
+
+
+    }
+    else {
+        document.getElementById("navbar").style.backgroundColor = "transparent";
+        document.getElementById("navbar").style.fontWeight = "bold";
+    }
+}
 
 const IndexPage = () => (
     <Layout>

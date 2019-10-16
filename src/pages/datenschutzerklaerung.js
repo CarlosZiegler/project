@@ -10,7 +10,7 @@ import CookieConsent from "react-cookie-consent";
 
 
 const Datenschutz = () => (
-    <Layout>
+    <Layout id={"content"}>
         <SEO title="Impressum"/>
         <Menu/>
         <Container className={'content'}>

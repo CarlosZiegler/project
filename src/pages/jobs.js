@@ -10,7 +10,7 @@ import CookieConsent from "react-cookie-consent";
 
 
 const JobsPage = () => (
-    <Layout>
+    <Layout id={"content"}>
         <SEO title="Jobs"/>
         <Menu/>
         <Container className={'content'}>

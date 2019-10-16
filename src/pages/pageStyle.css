@@ -1,5 +1,5 @@
 .content{
-    margin-top: 60px;
+    margin-top: 90px;
 }
 .thumbnailPost{
     width: 50%;
@@ -11,5 +11,13 @@
     height: 110px;
     margin: -80px 0 0;
 }
-
+#navbar {
+    overflow: hidden;
+    background-color: transparent;
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+}
 
