@@ -3,7 +3,24 @@ import { Carousel } from "react-responsive-carousel";
 
 import "./style.css";
 
+/*
 
+const ComponentName = ({ data }) => <pre>{JSON.stringify(data, null, 4)}</pre>
+
+export const query = graphql`
+  {
+    allWordpressWpMedia {
+      nodes {
+        slug
+        link
+        id
+      }
+    }
+  }
+`
+
+export default ComponentName
+*/
 
 export default () => (
     <Carousel autoPlay infiniteLoop  >

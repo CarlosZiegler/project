@@ -15,7 +15,7 @@ const Formular = () => (
                     <Image fluid src={ContactImage} width={"100%"}/>
                 </Col>
                 <Col lg={true} xs>
-                    <Form className={'formEmail'} action="https://formspree.io/xdqbvvrm" method="POST" >
+                    <Form className={'formEmail'} action="https://formspree.io/mwgzwjpm" method="POST" >
                         <Form.Group controlId="name" >
                             <Form.Label>Ihre Name</Form.Label>
                             <Form.Control type="text" placeholder="Enter name" name={"name"}/>
@@ -26,7 +26,7 @@ const Formular = () => (
                         </Form.Group>
                         <Form.Group controlId="exampleForm.ControlTextarea1">
                             <Form.Label>Ihre Nachricht*</Form.Label>
-                            <Form.Control as="textarea" rows="3"/>
+                            <Form.Control as="textarea"  name={"message"} rows="3"/>
                         </Form.Group>
                         <Button className="button__wrapper" variant="outline-primary" type="submit">
                             Submit
