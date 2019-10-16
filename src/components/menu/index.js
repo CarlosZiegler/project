@@ -9,12 +9,13 @@ import React from "react"
 
 import {Nav, Navbar} from "react-bootstrap";
 import logo from "../../images/logo.png";
+import "./style.css";
 
 const Menu = () => {
 
     return (
         <>
-            <Navbar sticky={"top"} collapseOnSelect sticky="top" expand="lg" bg="light">
+            <Navbar className={"header"} sticky={"top"} collapseOnSelect expand="lg" bg="light">
                 <Navbar.Brand href="/">
                     <img
                         src={logo}

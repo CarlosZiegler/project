@@ -37,12 +37,12 @@ const Footer = () => (
                 <div className="col-lg-2 col-xs-12 links">
                     <h4 className="mt-lg-0 mt-sm-3">Social</h4>
                     <ul className="m-0 p-0">
-                        <li>- <a href="https://visyu.de/feed/" target="_blank">Blog Feed</a></li>
-                        <li>- <a href="https://twitter.com/visyusolution" target="_blank">Twitter</a></li>
-                        <li>- <a href="https://www.facebook.com/visyusolution/" target="_blank">Facebook</a></li>
-                        <li>- <a href="https://www.instagram.com/visyu_solution/" target="_blank">Instagram</a></li>
-                        <li>- <a href="https://www.xing.com/companies/visyusolution" target="_blank">Xing</a></li>
-                        <li>- <a href="https://www.linkedin.com/company/visyu/" target="_blank">LinkedIn</a></li>
+                        <li>- <a href="https://visyu.de/feed/" target="_blank" rel="noopener noreferrer">Blog Feed</a></li>
+                        <li>- <a href="https://twitter.com/visyusolution" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                        <li>- <a href="https://www.facebook.com/visyusolution/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                        <li>- <a href="https://www.instagram.com/visyu_solution/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                        <li>- <a href="https://www.xing.com/companies/visyusolution" target="_blank" rel="noopener noreferrer">Xing</a></li>
+                        <li>- <a href="https://www.linkedin.com/company/visyu/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                     </ul>
                 </div>
             </div>

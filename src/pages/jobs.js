@@ -6,7 +6,7 @@ import Menu from "../components/menu";
 import Footer from "../components/footer"
 import {Container} from "react-bootstrap";
 import "./pageStyle.css";
-import CookieConsent, {Cookies} from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 
 
 const JobsPage = () => (

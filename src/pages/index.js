@@ -9,7 +9,7 @@ import Formular from "../components/form";
 import Menu from "../components/menu";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import CookieConsent, {Cookies} from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 
 
 const IndexPage = () => (

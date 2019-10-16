@@ -4,3 +4,12 @@
 .thumbnailPost{
     width: 50%;
 }
+
+:target:before {
+    content: "";
+    display: block;
+    height: 110px;
+    margin: -80px 0 0;
+}
+
+

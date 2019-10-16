@@ -43,10 +43,9 @@ const Blog = () => (
                         <div className="col col-xs-12">
                             <div className="blog-grids">
                                 {data.allWordpressPost.edges.map(({node}) => (
-                                    <Col lg={12}>
+                                    <Col key={node.id} lg={12}>
                                     <div key={node.slug} className="grid">
                                         <div className="entry-media">
-                                            {console.log(node)}
                                             <Image src={node.featured_media.localFile.url} className={'thumbnailPost'}/>
                                         </div>
                                         <div className="entry-body">

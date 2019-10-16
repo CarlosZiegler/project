@@ -1,14 +1,14 @@
 import React from 'react';
 import PropType from 'prop-types';
 import Helmet from 'react-helmet';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from "../components/seo"
 import Menu from "../components/menu";
 import Footer from "../components/footer"
 import './style.css'
-import CookieConsent, {Cookies} from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 
 const PostTemplate = (props) => {
     const { data: { wordpressPost: post } } = props;
