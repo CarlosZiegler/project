@@ -22,7 +22,7 @@ const wordpress = () => {
         <Container>
             <Row>
                 <Col lg={true} xs>
-                    <Image fluid src={ImageWordpress} width={"100%"} id={"logo"}/>
+                    <Image fluid src={ImageWordpress} width={"100%"} id={"logo"}  alt={"imagewordpress"}/>
                 </Col>
                 <Col lg={true} >
                     <Row>
@@ -41,13 +41,13 @@ const wordpress = () => {
                         <Container fluid>
                             <CardDeck>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Plugins}/>
+                                    <Card.Img variant="top" src={Plugins}  alt={"plugins"}/>
                                     <Card.Body>
                                         <Card.Title className="text-center"><h6>Plugins</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Themes}/>
+                                    <Card.Img variant="top" src={Themes}  alt={"themes"}/>
                                     <Card.Body>
                                         <Card.Title className="text-center"><h6>Themes</h6></Card.Title>
                                     </Card.Body>
@@ -59,13 +59,13 @@ const wordpress = () => {
                         <Container fluid>
                             <CardDeck>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Sicherheit}/>
+                                    <Card.Img variant="top" src={Sicherheit}  alt={"sicherheit"}/>
                                     <Card.Body>
                                         <Card.Title className="text-center"><h6>Sicherheit</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Pflegsystem}/>
+                                    <Card.Img variant="top" src={Pflegsystem}  alt={"pfegsystem"}/>
                                     <Card.Body>
                                         <Card.Title className="text-center"><h6>Pflegsystem</h6></Card.Title>
                                     </Card.Body>
@@ -77,7 +77,7 @@ const wordpress = () => {
             </Row>
             <Row>
                 <Col lg={{ order: 12 }}  xs={true}>
-                    <Image fluid src={Freelancer} width={"100%"}/>
+                    <Image fluid src={Freelancer} width={"100%"}  alt={"freelancer"}/>
                 </Col >
                 <Col  lg={true} xs={12}>
                     <Row>
@@ -93,13 +93,13 @@ const wordpress = () => {
                         <Container fluid>
                             <CardDeck>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Entwicklung}/>
+                                    <Card.Img variant="top" src={Entwicklung}  alt={"Entwicklung"}/>
                                     <Card.Body>
                                         <Card.Title className="text-center"><h6>Entwicklung</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Projektmanagement}/>
+                                    <Card.Img variant="top" src={Projektmanagement}  alt={"projektmanagement"}/>
                                     <Card.Body>
                                         <Card.Title className="text-center"><h6>Projektmanagement</h6></Card.Title>
                                     </Card.Body>
@@ -111,13 +111,13 @@ const wordpress = () => {
                         <Container fluid>
                             <CardDeck>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Seitenaufbau}/>
+                                    <Card.Img variant="top" src={Seitenaufbau}  alt={"seiteaufbau"}/>
                                     <Card.Body>
                                         <Card.Title className="text-center"><h6>Seitenaufbau</h6></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
-                                    <Card.Img variant="top" src={Support}/>
+                                    <Card.Img variant="top" src={Support}  alt={"support"}/>
                                     <Card.Body>
                                         <Card.Title className="text-center"><h6>Support</h6></Card.Title>
                                     </Card.Body>

@@ -29,7 +29,7 @@ const Leistungen = () => {
                 <Container fluid>
                     <CardDeck className={"grid-container"}>
                         <Card>
-                            <Card.Img variant="top" src={Wordpress}/>
+                            <Card.Img variant="top" src={Wordpress} alt={"wordpress_mitarbeiter"}/>
                             <Card.Body>
                                 <Card.Title><h3>CMS</h3></Card.Title>
                                 <Card.Text>
@@ -42,7 +42,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={Screen}/>
+                            <Card.Img variant="top" src={Screen}  alt={"computer_bild"}/>
                             <Card.Body>
                                 <Card.Title><h3>Design</h3></Card.Title>
                                 <Card.Text>
@@ -55,7 +55,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={Responsive}/>
+                            <Card.Img variant="top" src={Responsive}  alt={"responsive_logo"}/>
                             <Card.Body>
                                 <Card.Title><h3>Responsiv</h3></Card.Title>
                                 <Card.Text>
@@ -70,7 +70,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={SeoIcon}/>
+                            <Card.Img variant="top" src={SeoIcon}  alt={"seo_icon"}/>
                             <Card.Body>
                                 <Card.Title><h3>SEO</h3></Card.Title>
                                 <Card.Text>
@@ -82,7 +82,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={Frontend}/>
+                            <Card.Img variant="top" src={Frontend}  alt={"front_end_icon"}/>
                             <Card.Body>
                                 <Card.Title><h3>FRONTEND</h3></Card.Title>
                                 <Card.Text>
@@ -94,7 +94,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={Backend}/>
+                            <Card.Img variant="top" src={Backend}  alt={"backend_icon"} />
                             <Card.Body>
                                 <Card.Title><h3>BACKEND</h3></Card.Title>
                                 <Card.Text>
@@ -106,7 +106,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={Cart}/>
+                            <Card.Img variant="top" src={Cart}  alt={"cart_icon"}/>
                             <Card.Body>
                                 <Card.Title><h3>E-COMMERCE</h3></Card.Title>
                                 <Card.Text>
@@ -117,7 +117,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={Plugin}/>
+                            <Card.Img variant="top" src={Plugin}  alt={"plugin_icon"}/>
                             <Card.Body>
                                 <Card.Title><h3>THEMES UND PLUGINS</h3></Card.Title>
                                 <Card.Text>
