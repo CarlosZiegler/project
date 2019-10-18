@@ -24,7 +24,7 @@ function scrollFunction() {
 }
 
 const JobsPage = () => (
-    <Layout id={"content"}>
+    <Layout id={"content container"}>
         <SEO title="Jobs"/>
         <Menu/>
         <Container className={'container content'}>

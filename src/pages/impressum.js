@@ -31,14 +31,14 @@ const Impressum = () => (
         <Container className={'container content'} >
             <div  className={"text-justify"}>
                 <h1>Impressum</h1>
-                <p>Visyu Solution
-                   Felix Griewald
-                   Am Studio 2a
-                   12489 Berlin
-                   Deutschland
+                <p><strong>Visyu Solution</strong><br/>
+                   Felix Griewald <br/>
+                   Am Studio 2a <br/>
+                   12489 Berlin <br/>
+                   Deutschland <br/>
 
-                   Telefon: +49 30 / 374 348 14
-                   E-Mail: info@visyu.de
+                   Telefon: +49 30 / 374 348 14 <br/>
+                   E-Mail: info@visyu.de <br/>
 
                    USt-IdNr.: DE269492679</p>
                 <h3>Haftung für Inhalte</h3>
@@ -85,7 +85,7 @@ const Impressum = () => (
                    Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei
                    Bekanntwerden
                    von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
-                <span>Quellenangabe: https://www.e-recht24.de</span>
+                <span>Quellenangabe: https://www.e-recht24.de</span><br/>
                 <h3>Copyright-Vermerk</h3>
                 <p>Grafiken: www.vecteezy.com</p>
                 <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a></p>

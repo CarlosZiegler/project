@@ -10,6 +10,7 @@ import Footer from "../components/footer"
 import './style.css'
 import CookieConsent from "react-cookie-consent";
 import {Container} from "react-bootstrap";
+import { Link } from "gatsby";
 
 
 window.onscroll = function() {scrollFunction()};
@@ -18,8 +19,6 @@ function scrollFunction() {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         document.getElementById("navbar").style.backgroundColor = "rgb(228, 227, 227)";
         document.getElementById("navbar").style.fontWeight = "bold";
-
-
     }
     else {
         document.getElementById("navbar").style.backgroundColor = "transparent";
@@ -43,7 +42,7 @@ const PostTemplate = (props) => {
                 ]}
             />
             <Container className={'container content'}>
-            <article className={'content'}>
+            <article className={'text-justify'}>
 
                 <section className="container-fluid main-body">
                     <section className="row">
@@ -71,14 +70,19 @@ const PostTemplate = (props) => {
                                         <div className="col-xs-12 col-sm-6">
 
                                         </div>
+                                        Habt ihr noch weitere interessante Möglichkeiten oder Ideen, wie man die Performance der eigenen Webseite erhöht? Oder benötigt ihr Support bei dem Thema? Dann nehmt doch mit uns Kontakt auf oder schreibt einen Kommentar.
+                                        {console.log(post)}
+                                        <Link to={"/blog"} >Zurück zur Blog Seit</Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="hidden-xs col-sm-1 col-md-2" />
+
                     </section>
                 </section>
             </article>
+
             </Container>
             <CookieConsent
                 location="bottom"
@@ -101,6 +105,7 @@ const PostTemplate = (props) => {
 
 
             </CookieConsent>
+
             <Footer/>
         </Layout>
     );
