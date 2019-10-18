@@ -35,7 +35,6 @@ module.exports = {
       }
     },
     `gatsby-transformer-sharp`,
-    'gatsby-plugin-robots-txt',
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
