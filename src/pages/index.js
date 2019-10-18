@@ -11,6 +11,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import CookieConsent from "react-cookie-consent";
 
+/*
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -25,6 +26,7 @@ function scrollFunction() {
         document.getElementById("navbar").style.fontWeight = "bold";
     }
 }
+*/
 
 
 const IndexPage = () => (
