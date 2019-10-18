@@ -12,6 +12,7 @@ import CookieConsent from "react-cookie-consent";
 import {Container} from "react-bootstrap";
 import { Link } from "gatsby";
 
+/*
 
 window.onscroll = function() {scrollFunction()};
 
@@ -26,6 +27,7 @@ function scrollFunction() {
     }
 }
 
+*/
 
 
 const PostTemplate = (props) => {
