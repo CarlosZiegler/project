@@ -10,7 +10,7 @@ import Image from "react-bootstrap/Image";
 import {Col} from "react-bootstrap";
 import CookieConsent from "react-cookie-consent";
 
-window.onscroll = function () {
+/*window.onscroll = function () {
     scrollFunction()
 };
 
@@ -24,7 +24,7 @@ function scrollFunction() {
         document.getElementById("navbar").style.backgroundColor = "transparent";
         document.getElementById("navbar").style.fontWeight = "bold";
     }
-}
+}*/
 
 
 const Blog = () => (
