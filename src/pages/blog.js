@@ -10,6 +10,22 @@ import Image from "react-bootstrap/Image";
 import {Col} from "react-bootstrap";
 import CookieConsent from "react-cookie-consent";
 
+window.onscroll = function () {
+    scrollFunction()
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.backgroundColor = "rgb(228, 227, 227)";
+        document.getElementById("navbar").style.fontWeight = "bold";
+
+
+    } else {
+        document.getElementById("navbar").style.backgroundColor = "transparent";
+        document.getElementById("navbar").style.fontWeight = "bold";
+    }
+}
+
 
 const Blog = () => (
     <StaticQuery
@@ -27,6 +43,11 @@ const Blog = () => (
                 }
              }
             slug
+            id
+            tags{
+                name
+                id
+                }
 
           }
         }
@@ -37,35 +58,36 @@ const Blog = () => (
             <Layout id={"content"}>
                 <SEO title="Blog"/>
                 <Menu/>
-                <div className="container content">
-                    <h2>Blog</h2>
-                    <div className="row">
-                        <div className="col col-xs-12">
-                            <div className="blog-grids">
-                                {data.allWordpressPost.edges.map(({node}) => (
-                                    <Col key={node.id} lg={12}>
-                                    <div key={node.slug} className="grid">
-                                        <div className="entry-media">
-                                            <Image src={node.featured_media.localFile.url} className={'thumbnailPost'}/>
+                <main className={"main_page"}>
+                    <h1>Blog</h1>
+                    <div className="main">
+                        <div className="cards_">
+                            {data.allWordpressPost.edges.map(({node}) => (
+                                <div key={node.id} className="cards_item_">
+                                    <div className="card_ card_ border-primary-blog">
+                                        <div className="card_image card-img-top-blog "><Image
+                                            className={"card-img-top-blog"} src={node.featured_media.localFile.url}/>
                                         </div>
-                                        <div className="entry-body">
-                                            <span
-                                                className="cat">{node.categories && node.categories.map(category => `${category.name}, `)}</span>
-                                            <h3><Link to={`/${node.slug}`}
-                                                      dangerouslySetInnerHTML={{__html: node.title}}/></h3>
-                                            <p dangerouslySetInnerHTML={{__html: node.excerpt}}/>
-                                            <div className="read-more-date">
-                                                <Link to={`/${node.slug}`}>Read More..</Link>
-                                                <span className="date">{node.date}</span>
-                                            </div>
+                                        <div className="card_content_ card-body text-secondary">
+                                            <h5 className="card-title_ text-secondary"
+                                                dangerouslySetInnerHTML={{__html: node.title}}/>
+                                            <p className="card_text_ text-secondary"
+                                               dangerouslySetInnerHTML={{__html: node.excerpt}}/>
+                                        </div>
+                                        <div className=" card-footer ">
+                                            <Link to={`/${node.slug}`}>
+                                                <button className="btn btn-secondary btn-lg btn-block">Weiterlesen...
+                                                </button>
+                                            </Link>
+                                            <footer className="blockquote-footer"
+                                                    dangerouslySetInnerHTML={{__html: "Erstellt in " + node.date}}></footer>
                                         </div>
                                     </div>
-                                    </Col>
-                                ))}
-                            </div>
+                                </div>
+                            ))}
                         </div>
                     </div>
-                </div>
+                </main>
                 <CookieConsent
                     location="bottom"
                     buttonText="Akzeptieren"
@@ -88,7 +110,7 @@ const Blog = () => (
                     der von uns verwendeten Arten von Cookies zu erhalten und um zu entscheiden, welche Arten von
                     Cookies bei
                     der Nutzung unserer Website gesetzt werden sollen. <a href={"/datenschutzerklaerung/"}>Mehr auf
-                                                                                                           Datenschutzerklärung</a>{""}
+                                                                                                           Datenschutzerklärung</a>
 
 
                 </CookieConsent>
@@ -100,3 +122,4 @@ const Blog = () => (
 
 
 export default Blog;
+

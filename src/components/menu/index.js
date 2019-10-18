@@ -10,6 +10,7 @@ import React from "react"
 import {Nav, Navbar} from "react-bootstrap";
 import logo from "../../images/logo.png";
 import "./style.css";
+import {Link} from "gatsby";
 
 const Menu = () => {
 
@@ -25,6 +26,7 @@ const Menu = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="justify-content-end" id="basic-navbar-nav"/>
                 <Navbar.Collapse id="justify-content-end" className="justify-content-end">
+
                     <Nav>
                         <Nav.Link href="/#leistungen">Leistungen</Nav.Link>
                         <Nav.Link href="/#wordpress">Wordpress</Nav.Link>
@@ -40,3 +42,14 @@ const Menu = () => {
 }
 
 export default Menu
+
+/*
+<Nav>
+                        <Link className={"link"} to="/#leistungen">Leistungen</Link>
+                        <Link className={"link"} to="/#wordpress">Wordpress</Link>
+                        <Link className={"link"} to="/#portfolio">Portfolio</Link>
+                        <Link className={"link"} to="/blog">Blog</Link>
+                        <Link className={"link"} to="/jobs">Jobs</Link>
+                        <Link className={"link"} to="/#kontakt">Kontakt</Link>
+                    </Nav>
+*/

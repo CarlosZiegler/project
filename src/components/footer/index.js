@@ -12,14 +12,14 @@ const Footer = () => (
     <div className="mt-5 pt-5 pb-5 footer">
         <div className="container">
             <div className="row">
-                <div className="col-lg-6 col-xs-12 about-company">
+                <div className="col-lg-5 col-xs-12 about-company">
                     <Image src={logo}/>
                     <p className="pr-5 textCopyright">Wir sind eine Webagentur in Berlin-Adlershof und haben unseren
                                                       Standort direkt auf dem WISTA-Gelände kurz hinter dem S-Bahnhof
                                                       Adlershof. </p>
                 </div>
                 <div className="col-lg-2 col-xs-12 location">
-                    <h4 className="mt-lg-0 mt-sm-4">Location</h4>
+                    <h4 className="mt-lg-0 mt-sm-3">Location</h4>
                     <ul className="m-0 p-0">
                         <li>Am Studio 2a, 12489 Berlin</li>
                         <li>Deutschland</li>
@@ -27,8 +27,8 @@ const Footer = () => (
                         <li>info@visyu.de</li>
                     </ul>
                 </div>
-                <div className="col-lg-2 col-xs-12 links">
-                    <h4 className="mt-lg-0 mt-sm-3">Links</h4>
+                <div className="col-lg-3 col-xs-12 links">
+                    <h4 className="mt-lg-0 mt-sm-4">Links</h4>
                     <ul className="m-0 p-0">
                         <li>- <Link to="/impressum/">Impressum</Link></li>
                         <li>- <Link to="/datenschutzerklaerung/">Datenschutzerklärung</Link></li>

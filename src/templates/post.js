@@ -9,6 +9,25 @@ import Menu from "../components/menu";
 import Footer from "../components/footer"
 import './style.css'
 import CookieConsent from "react-cookie-consent";
+import {Container} from "react-bootstrap";
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.backgroundColor = "rgb(228, 227, 227)";
+        document.getElementById("navbar").style.fontWeight = "bold";
+
+
+    }
+    else {
+        document.getElementById("navbar").style.backgroundColor = "transparent";
+        document.getElementById("navbar").style.fontWeight = "bold";
+    }
+}
+
+
 
 const PostTemplate = (props) => {
     const { data: { wordpressPost: post } } = props;
@@ -23,11 +42,8 @@ const PostTemplate = (props) => {
                     { name: 'description', content: post.excerpt },
                 ]}
             />
-
+            <Container className={'container content'}>
             <article className={'content'}>
-                    <div className="background-bar">
-
-                    </div>
 
                 <section className="container-fluid main-body">
                     <section className="row">
@@ -35,7 +51,7 @@ const PostTemplate = (props) => {
                         <div className="col-xs-12 col-sm-10 col-md-8">
                             <div className="content-holder">
                                 <div className="content-description">
-                                    <h3>{post.title}</h3>
+                                    <h1>{post.title}</h1>
 
                                 <div className="content-body">
                                     <p dangerouslySetInnerHTML={{ __html: post.content }} />
@@ -63,6 +79,7 @@ const PostTemplate = (props) => {
                     </section>
                 </section>
             </article>
+            </Container>
             <CookieConsent
                 location="bottom"
                 buttonText="Akzeptieren"

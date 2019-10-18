@@ -8,13 +8,27 @@ import {Container} from "react-bootstrap";
 import "./pageStyle.css";
 import CookieConsent from "react-cookie-consent";
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.backgroundColor = "rgb(228, 227, 227)";
+        document.getElementById("navbar").style.fontWeight = "bold";
+
+
+    }
+    else {
+        document.getElementById("navbar").style.backgroundColor = "transparent";
+        document.getElementById("navbar").style.fontWeight = "bold";
+    }
+}
 
 const JobsPage = () => (
     <Layout id={"content"}>
         <SEO title="Jobs"/>
         <Menu/>
-        <Container className={'content'}>
-            <div>
+        <Container className={'container content'}>
+            <div className={"text-justify"}>
                 <h2>Praktikum Webentwicklung (m/w) </h2>
                 <p>Visyu Solution ist eine junge Webagentur im Herzen des größten Wissenschaftsgeländes Deutschlands –
                    in Berlin-Adlershof. Wir bieten verschiedene Dienstleistungen im Bereich Web und Mobile an,

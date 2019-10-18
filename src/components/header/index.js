@@ -3,7 +3,7 @@ import React from "react"
 
 
 import { Jumbotron } from 'react-bootstrap';
-import BannerSection from "../../containers/bannerSection"
+import BannerSection from "../../sections/bannerSection"
 
 
 import "./index.css";

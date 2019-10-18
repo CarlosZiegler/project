@@ -2,9 +2,9 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Leistungen from "../containers/leistungen";
-import Wordpress from "../containers/wordpress";
-import Portfolio from "../containers/portfolio";
+import Leistungen from "../sections/leistungen";
+import Wordpress from "../sections/wordpress";
+import Portfolio from "../sections/portfolio";
 import Formular from "../components/form";
 import Menu from "../components/menu";
 import Header from "../components/header";
@@ -25,6 +25,7 @@ function scrollFunction() {
         document.getElementById("navbar").style.fontWeight = "bold";
     }
 }
+
 
 const IndexPage = () => (
     <Layout>
