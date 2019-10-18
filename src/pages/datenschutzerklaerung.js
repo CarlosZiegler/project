@@ -7,7 +7,7 @@ import Footer from "../components/footer"
 import {Container} from "react-bootstrap";
 import "./pageStyle.css";
 import CookieConsent from "react-cookie-consent";
-
+/*
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -21,7 +21,7 @@ function scrollFunction() {
         document.getElementById("navbar").style.backgroundColor = "transparent";
         document.getElementById("navbar").style.fontWeight = "bold";
     }
-}
+}*/
 
 
 const Datenschutz = () => (

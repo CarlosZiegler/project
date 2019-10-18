@@ -8,6 +8,7 @@ import {Container} from "react-bootstrap";
 import "./pageStyle.css";
 import CookieConsent from "react-cookie-consent";
 
+/*
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -22,6 +23,7 @@ function scrollFunction() {
         document.getElementById("navbar").style.fontWeight = "bold";
     }
 }
+*/
 
 const JobsPage = () => (
     <Layout id={"content container"}>
