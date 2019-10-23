@@ -43,13 +43,13 @@ const wordpress = () => {
                                 <Card className={"cardNoBorder"}>
                                     <Card.Img variant="top" src={Plugins}  alt={"plugins"}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>Plugins</h6></Card.Title>
+                                        <Card.Title className="text-center"><h5>Plugins</h5></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
                                     <Card.Img variant="top" src={Themes}  alt={"themes"}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>Themes</h6></Card.Title>
+                                        <Card.Title className="text-center"><h5>Themes</h5></Card.Title>
                                     </Card.Body>
                                 </Card>
                             </CardDeck>
@@ -61,13 +61,13 @@ const wordpress = () => {
                                 <Card className={"cardNoBorder"}>
                                     <Card.Img variant="top" src={Sicherheit}  alt={"sicherheit"}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>Sicherheit</h6></Card.Title>
+                                        <Card.Title className="text-center"><h5>Sicherheit</h5></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
                                     <Card.Img variant="top" src={Pflegsystem}  alt={"pfegsystem"}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>Pflegsystem</h6></Card.Title>
+                                        <Card.Title className="text-center"><h5>Pflegsystem</h5></Card.Title>
                                     </Card.Body>
                                 </Card>
                             </CardDeck>
@@ -95,13 +95,13 @@ const wordpress = () => {
                                 <Card className={"cardNoBorder"}>
                                     <Card.Img variant="top" src={Entwicklung}  alt={"Entwicklung"}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>Entwicklung</h6></Card.Title>
+                                        <Card.Title className="text-center"><h5>Entwicklung</h5></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
                                     <Card.Img variant="top" src={Projektmanagement}  alt={"projektmanagement"}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>Projektmanagement</h6></Card.Title>
+                                        <Card.Title className="text-center"><h5>Projektmanagement</h5></Card.Title>
                                     </Card.Body>
                                 </Card>
                             </CardDeck>
@@ -113,13 +113,13 @@ const wordpress = () => {
                                 <Card className={"cardNoBorder"}>
                                     <Card.Img variant="top" src={Seitenaufbau}  alt={"seiteaufbau"}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>Seitenaufbau</h6></Card.Title>
+                                        <Card.Title className="text-center"><h5>Seitenaufbau</h5></Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"cardNoBorder"}>
                                     <Card.Img variant="top" src={Support}  alt={"support"}/>
                                     <Card.Body>
-                                        <Card.Title className="text-center"><h6>Support</h6></Card.Title>
+                                        <Card.Title className="text-center"><h5>Support</h5></Card.Title>
                                     </Card.Body>
                                 </Card>
                             </CardDeck>

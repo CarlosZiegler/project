@@ -30,7 +30,7 @@ function scrollFunction() {
 
 
 const Impressum = () => (
-    <Layout id={"content"}>
+    <Layout className={"content"}>
         <SEO title="Impressum"/>
         <Menu/>
         <Container className={'container content'} >

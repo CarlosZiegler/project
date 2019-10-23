@@ -76,7 +76,6 @@ const PostTemplate = (props) => {
                                         </div>
                                         <div className="col-xs-12 col-sm-6">
                                         </div>
-                                        Habt ihr noch weitere interessante Möglichkeiten oder Ideen, wie man die Performance der eigenen Webseite erhöht? Oder benötigt ihr Support bei dem Thema? Dann nehmt doch mit uns Kontakt auf oder schreibt einen Kommentar.
 
                                         <Link to={"/blog"} >Zurück zur Blog Seit</Link>
                                     </div>

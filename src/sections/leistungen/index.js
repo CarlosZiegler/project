@@ -31,8 +31,8 @@ const Leistungen = () => {
                         <Card>
                             <Card.Img variant="top" src={Wordpress} alt={"wordpress_mitarbeiter"}/>
                             <Card.Body>
-                                <Card.Title><h3>CMS</h3></Card.Title>
-                                <Card.Text>
+                                <Card.Title className={"text-center"}><h3>CMS</h3></Card.Title>
+                                <Card.Text className={"text-justify"}>
                                     Zur Verwaltung von Inhalten stehen Ihnen verschiedene Content Management Systeme
                                     zur
                                     Verfügung. Wir verwenden je nach Projekt Wordpress, Joomla! oder TYPO3. So
@@ -44,8 +44,8 @@ const Leistungen = () => {
                         <Card>
                             <Card.Img variant="top" src={Screen}  alt={"computer_bild"}/>
                             <Card.Body>
-                                <Card.Title><h3>Design</h3></Card.Title>
-                                <Card.Text>
+                                <Card.Title className={"text-center"}><h3>Design</h3></Card.Title>
+                                <Card.Text className={"text-justify"}>
                                     Die Gestaltung einer Webseite ist elementar und macht sie einzigartig. Dabei
                                     stehen
                                     bereits vorgefertigter Templates bis hin zu komplett individuellen
@@ -57,8 +57,8 @@ const Leistungen = () => {
                         <Card>
                             <Card.Img variant="top" src={Responsive}  alt={"responsive_logo"}/>
                             <Card.Body>
-                                <Card.Title><h3>Responsiv</h3></Card.Title>
-                                <Card.Text>
+                                <Card.Title className={"text-center"}><h3>Responsiv</h3></Card.Title>
+                                <Card.Text className={"text-justify"}>
                                     Webseiten werden nicht mehr nur am heimischen PC konsumiert. Smarte Geräte,
                                     wie das
                                     Smartphone, Tablets oder gar der Fernseher finden ebenfalls Verwendung. Um
@@ -72,8 +72,8 @@ const Leistungen = () => {
                         <Card>
                             <Card.Img variant="top" src={SeoIcon}  alt={"seo_icon"}/>
                             <Card.Body>
-                                <Card.Title><h3>SEO</h3></Card.Title>
-                                <Card.Text>
+                                <Card.Title className={"text-center"}><h3>SEO</h3></Card.Title>
+                                <Card.Text className={"text-justify"}>
                                     Ein wichtiger Aspekt einer Webseite ist die Auffindbarkeit in
                                     Suchmaschinen wie Google
                                     oder Bing. Dabei greifen wir auf Wunsch auf diverse Techniken der
@@ -84,8 +84,8 @@ const Leistungen = () => {
                         <Card>
                             <Card.Img variant="top" src={Frontend}  alt={"front_end_icon"}/>
                             <Card.Body>
-                                <Card.Title><h3>FRONTEND</h3></Card.Title>
-                                <Card.Text>
+                                <Card.Title className={"text-center"}><h3>FRONTEND</h3></Card.Title>
+                                <Card.Text className={"text-justify"}>
                                     Ein ansprechendes und flüssig zu bedienendes Frontend sind im modernen Web kein
                                     Hexenwerk mehr. Mit Hilfe diverser Techniken gestalten wir nicht nur attraktive,
                                     sondern
@@ -96,8 +96,8 @@ const Leistungen = () => {
                         <Card>
                             <Card.Img variant="top" src={Backend}  alt={"backend_icon"} />
                             <Card.Body>
-                                <Card.Title><h3>BACKEND</h3></Card.Title>
-                                <Card.Text>
+                                <Card.Title className={"text-center"}><h3>BACKEND</h3></Card.Title>
+                                <Card.Text className={"text-justify"}>
                                     Das Backend bildet das Rückgrat einer jeden Webanwendung. Durch den Einsatz
                                     erprobter
                                     Entwurfsmuster und Frameworks erhalten Sie die völlige Kontrolle über Ihre
@@ -108,8 +108,8 @@ const Leistungen = () => {
                         <Card>
                             <Card.Img variant="top" src={Cart}  alt={"cart_icon"}/>
                             <Card.Body>
-                                <Card.Title><h3>E-COMMERCE</h3></Card.Title>
-                                <Card.Text>
+                                <Card.Title className={"text-center"}><h3>E-COMMERCE</h3></Card.Title>
+                                <Card.Text className={"text-justify"}>
                                     Warum das Rad neu erfinden? Diese Frage stellen wir uns auch regelmäßig in der
                                     Webentwicklung und setzen auf eine Reihe beliebter Frontend- und Backend-Frameworks,
                                     u.a. Symfony, AngularJS, Bootstrap etc.
@@ -119,8 +119,8 @@ const Leistungen = () => {
                         <Card>
                             <Card.Img variant="top" src={Plugin}  alt={"plugin_icon"}/>
                             <Card.Body>
-                                <Card.Title><h3>THEMES UND PLUGINS</h3></Card.Title>
-                                <Card.Text>
+                                <Card.Title className={"text-center"}><h3>THEMES UND PLUGINS</h3></Card.Title>
+                                <Card.Text className={"text-justify"}>
                                     Themes sind Template-Vorlagen für WordPress. Selbstverständlich entwickeln wir auch
                                     individuelle WordPress Themes auf Basis eines Screendesigns oder nach Ihrer Vorlage
                                     (Photoshop, Sketch etc.).
