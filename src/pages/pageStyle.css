@@ -139,6 +139,6 @@ h1 {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #264a70;
+    color: #264a70 !important;
     font-weight: 700;
 }
