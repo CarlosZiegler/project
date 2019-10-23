@@ -9,9 +9,12 @@ import "./pageStyle.css";
 import Image from "react-bootstrap/Image";
 import CookieConsent from "react-cookie-consent";
 
-/*window.onscroll = function () {
-    scrollFunction()
-};
+if (typeof window !== "undefined") {
+
+    window.onscroll = function() {scrollFunction()};
+
+
+}
 
 function scrollFunction() {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -23,7 +26,7 @@ function scrollFunction() {
         document.getElementById("navbar").style.backgroundColor = "transparent";
         document.getElementById("navbar").style.fontWeight = "bold";
     }
-}*/
+}
 
 
 const Blog = () => (
