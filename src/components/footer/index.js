@@ -18,9 +18,10 @@ const Footer = () => (
                                                       Standort direkt auf dem WISTA-Gelände kurz hinter dem S-Bahnhof
                                                       Adlershof. </p>
                 </div>
+
                 <div className="col-lg-2 col-xs-12 location">
                     <h4 className="mt-lg-0 mt-sm-3">Location</h4>
-                    <ul className="m-0 p-0">
+                    <ul className="m-0 p-0 ohne_style">
                         <li>Am Studio 2a, 12489 Berlin</li>
                         <li>Deutschland</li>
                         <li>+49 (0)30 374 348 14</li>
