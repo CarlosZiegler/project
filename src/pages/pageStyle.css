@@ -137,3 +137,8 @@ h1 {
 .border-primary-blog {
     border-color: #13235b !important;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #264a70;
+    font-weight: 700;
+}
