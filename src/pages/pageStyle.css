@@ -21,10 +21,8 @@
     top: 0; /* At the top */
     z-index: 99;
 }
-/*
 
-.navbar-light .navbar-nav .nav-link {  background: rgb(228, 227, 227); padding: 20px;}
-*/
+
 .link{
     padding: 5px;
     color: #264a70;
