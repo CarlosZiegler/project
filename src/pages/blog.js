@@ -75,7 +75,13 @@ const Blog = () => (
                                                 dangerouslySetInnerHTML={{__html: node.title}}/>
                                             <p className="card_text_ text-secondary"
                                                dangerouslySetInnerHTML={{__html: node.excerpt}}/>
+                                               <div className={"align-text-bottom"}>
+                                            {/*{node.tags.map(tag=> <span key={tag.id} className="cat align-text-bottom "
+                                                                       dangerouslySetInnerHTML={{__html: " #" + tag.name}}></span>)}*/}
+                                               </div>
+
                                         </div>
+
                                         <div className=" card-footer ">
                                             <Link to={`/${node.slug}`}>
                                                 <button className="btn btn-secondary btn-lg btn-block">Weiterlesen...
@@ -83,6 +89,7 @@ const Blog = () => (
                                             </Link>
                                             <footer className="blockquote-footer"
                                                     dangerouslySetInnerHTML={{__html: "Erstellt in " + node.date}}></footer>
+
                                         </div>
                                     </div>
                                 </div>

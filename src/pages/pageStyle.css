@@ -146,4 +146,7 @@ h1 {
 ul {
     list-style-type: unset;
 }
-
+.cat {
+    font-weight: 600;
+    color: #13235b;
+}
