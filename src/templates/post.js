@@ -23,7 +23,7 @@ if (typeof window !== "undefined") {
 }
 
 function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         document.getElementById("navbar").style.backgroundColor = "rgb(228, 227, 227)";
         document.getElementById("navbar").style.fontWeight = "bold";
     } else {

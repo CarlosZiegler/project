@@ -17,7 +17,7 @@ if (typeof window !== "undefined") {
 }
 
 function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         document.getElementById("navbar").style.backgroundColor = "rgb(228, 227, 227)";
         document.getElementById("navbar").style.fontWeight = "bold";
 
@@ -45,44 +45,44 @@ const JobsPage = () => (
                 </p>
                 <h4>Was wir dir bieten</h4>
                 <ul>
-                    <li>-Spannende Aufgaben im Bereich Webentwicklung</li>
-                    <li>-Kommunikation direkt mit den Kunden und Teilnahme an Meetings</li>
-                    <li>-Mitwirkung am kreativen Prozess bei der Umsetzung neuer Projekte</li>
-                    <li>-Ein offenes Ohr für neue Ideen</li>
-                    <li>-Flexible Arbeitszeiten</li>
-                    <li>-Kostenlose Snacks, Getränke, Teamevents und Spaß bei der Arbeit</li>
-                    <li>-Ab und zu Tischtennis, Basketball oder (W)LAN-Parties</li>
-                    <li>-Bezahlung</li>
+                    <li>Spannende Aufgaben im Bereich Webentwicklung</li>
+                    <li>Kommunikation direkt mit den Kunden und Teilnahme an Meetings</li>
+                    <li>Mitwirkung am kreativen Prozess bei der Umsetzung neuer Projekte</li>
+                    <li>Ein offenes Ohr für neue Ideen</li>
+                    <li>Flexible Arbeitszeiten</li>
+                    <li>Kostenlose Snacks, Getränke, Teamevents und Spaß bei der Arbeit</li>
+                    <li>Ab und zu Tischtennis, Basketball oder (W)LAN-Parties</li>
+                    <li>Bezahlung</li>
                 </ul>
                 <h4>Was du bei uns machst</h4>
                 <ul>
-                    <li>-Entwickeln mit verschiedenen Frameworks und Content Management Systemen</li>
-                    <li>-Auf Wunsch Entwicklung im Frontend, Backend oder beidem</li>
-                    <li>-Teilnahme an Meetings mit Kunden</li>
-                    <li>-Erstellung von Projektplänen und Projektmanagement</li>
-                    <li>-Neue interessante Themen erarbeiten, neue Technologien recherchieren</li>
-                    <li>-Support</li>
-                    <li>-Tagesgeschäft</li>
+                    <li>Entwickeln mit verschiedenen Frameworks und Content Management Systemen</li>
+                    <li>Auf Wunsch Entwicklung im Frontend, Backend oder beidem</li>
+                    <li>Teilnahme an Meetings mit Kunden</li>
+                    <li>Erstellung von Projektplänen und Projektmanagement</li>
+                    <li>Neue interessante Themen erarbeiten, neue Technologien recherchieren</li>
+                    <li>Support</li>
+                    <li>Tagesgeschäft</li>
                 </ul>
                 <h4>Was du können solltest</h4>
                 <ul>
-                    <li>-Du hast gute Kenntnisse in der Entwicklung mit PHP, JavaScript, HTML und CSS</li>
-                    <li>-Du hast idealerweise Kenntnisse in der Entwicklung mit WordPress, Joomla, Symfony, jQuery ODER
+                    <li>Du hast gute Kenntnisse in der Entwicklung mit PHP, JavaScript, HTML und CSS</li>
+                    <li>Du hast idealerweise Kenntnisse in der Entwicklung mit WordPress, Joomla, Symfony, jQuery ODER
                         Angular
                         (wir freuen uns auch über andere Web-Technologien)
                     </li>
-                    <li>-Du hast vielleicht sogar schon mal mit Linux (idealerweise Ubuntu) gearbeitet</li>
-                    <li>-Du zeigst eine hohe Lernbereitschaft in Bezug auf neue Frameworks, Content Management Systeme,
+                    <li>Du hast vielleicht sogar schon mal mit Linux (idealerweise Ubuntu) gearbeitet</li>
+                    <li>Du zeigst eine hohe Lernbereitschaft in Bezug auf neue Frameworks, Content Management Systeme,
                         Libraries
                         etc.
                     </li>
-                    <li>-Du hast Spaß am Programmieren</li>
-                    <li>-Du arbeitest strukturiert</li>
-                    <li>-Du denkst mit</li>
-                    <li>-Du bist offen und kommunikativ</li>
-                    <li>-Du bist zuverlässig und pünktlich</li>
-                    <li>-Du legst Wert auf Qualität</li>
-                    <li>-Idealerweise studierst du in einem Informatik-nahen Studiengang oder machst gerade eine
+                    <li>Du hast Spaß am Programmieren</li>
+                    <li>Du arbeitest strukturiert</li>
+                    <li>Du denkst mit</li>
+                    <li>Du bist offen und kommunikativ</li>
+                    <li>Du bist zuverlässig und pünktlich</li>
+                    <li>Du legst Wert auf Qualität</li>
+                    <li>Idealerweise studierst du in einem Informatik-nahen Studiengang oder machst gerade eine
                         entsprechende Ausbildung
                     </li>
                 </ul>
