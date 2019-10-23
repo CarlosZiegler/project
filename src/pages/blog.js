@@ -81,7 +81,6 @@ const Blog = () => (
                                                </div>
 
                                         </div>
-
                                         <div className=" card-footer ">
                                             <Link to={`/${node.slug}`}>
                                                 <button className="btn btn-secondary btn-lg btn-block">Weiterlesen...
@@ -89,7 +88,6 @@ const Blog = () => (
                                             </Link>
                                             <footer className="blockquote-footer"
                                                     dangerouslySetInnerHTML={{__html: "Erstellt in " + node.date}}></footer>
-
                                         </div>
                                     </div>
                                 </div>
@@ -131,4 +129,9 @@ const Blog = () => (
 
 
 export default Blog;
+
+
+
+
+
 
