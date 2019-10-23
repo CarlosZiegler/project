@@ -12,8 +12,9 @@ import CookieConsent from "react-cookie-consent";
 import {Container} from "react-bootstrap";
 import { Link } from "gatsby";
 
-/*
 
+
+/*
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -26,8 +27,9 @@ function scrollFunction() {
         document.getElementById("navbar").style.fontWeight = "bold";
     }
 }
-
 */
+
+
 
 
 const PostTemplate = (props) => {
@@ -53,7 +55,6 @@ const PostTemplate = (props) => {
                             <div className="content-holder">
                                 <div className="content-description">
                                     <h1>{post.title}</h1>
-
                                 <div className="content-body">
                                     <p dangerouslySetInnerHTML={{ __html: post.content }} />
                                 </div>

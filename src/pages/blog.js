@@ -7,7 +7,6 @@ import Menu from "../components/menu";
 import Footer from "../components/footer"
 import "./pageStyle.css";
 import Image from "react-bootstrap/Image";
-import {Col} from "react-bootstrap";
 import CookieConsent from "react-cookie-consent";
 
 /*window.onscroll = function () {

@@ -16,7 +16,7 @@ const Menu = () => {
 
     return (
         <>
-            <Navbar id={'navbar'} className={"header"} sticky={"top"} collapseOnSelect expand="lg" >
+            <Navbar id={'navbar'} className={"header"} sticky={"top"} collapseOnSelect expand="lg"  >
                 <Navbar.Brand href="/">
                     <img
                         src={logo}
@@ -26,7 +26,6 @@ const Menu = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="justify-content-end" id="basic-navbar-nav"/>
                 <Navbar.Collapse id="justify-content-end" className="justify-content-end">
-
                     <Nav>
                         <Nav.Link href="/#leistungen">Leistungen</Nav.Link>
                         <Nav.Link href="/#wordpress">Wordpress</Nav.Link>
