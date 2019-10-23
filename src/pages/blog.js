@@ -73,9 +73,11 @@ const Blog = () => (
                                         <div className="card_content_ card-body text-secondary">
                                             <h5 className="card-title_ text-secondary"
                                                 dangerouslySetInnerHTML={{__html: node.title}}/>
-                                            <p className="card_text_ text-secondary"
-                                               dangerouslySetInnerHTML={{__html: node.excerpt}}/>
+
+
                                         </div>
+                                        <p className="text-secondary"
+                                           dangerouslySetInnerHTML={{__html: node.excerpt}}/>
                                         <div className=" card-footer ">
                                             <Link to={`/${node.slug}`}>
                                                 <button className="btn btn-secondary btn-lg btn-block">Weiterlesen...
