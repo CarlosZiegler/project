@@ -58,7 +58,7 @@ const PostTemplate = (props) => {
                         <div className="col-xs-12 col-sm-10 col-md-8">
                             <div className="content-holder">
                                 <div className="content-description">
-                                    <h1>{post.title}</h1>
+                                    <h1 dangerouslySetInnerHTML={{ __html: post.title}}/>
                                 <div className="content-body">
                                     <p dangerouslySetInnerHTML={{ __html: post.content }} />
                                 </div>
@@ -75,10 +75,9 @@ const PostTemplate = (props) => {
                       </span>
                                         </div>
                                         <div className="col-xs-12 col-sm-6">
-
                                         </div>
                                         Habt ihr noch weitere interessante Möglichkeiten oder Ideen, wie man die Performance der eigenen Webseite erhöht? Oder benötigt ihr Support bei dem Thema? Dann nehmt doch mit uns Kontakt auf oder schreibt einen Kommentar.
-                                        {console.log(post)}
+
                                         <Link to={"/blog"} >Zurück zur Blog Seit</Link>
                                     </div>
                                 </div>
