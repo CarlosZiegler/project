@@ -54,6 +54,8 @@ const IndexPage = () => (
             enableDeclineButton
             flipButtons
             contentClasses="text-capitalize"
+            buttonId={"btn-agree"}
+            declineButtonId={"btn-decline"}
         >
             Um Ihnen eine angenehmere Erfahrung zu bieten, nutzen wir Cookies zum Speichern Ihrer Anmeldedaten, um für
             eine sichere Anmeldung zu sorgen, um statistische Daten zur Optimierung der Website-Funktionen zu erheben,

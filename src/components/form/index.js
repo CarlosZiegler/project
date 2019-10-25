@@ -24,7 +24,7 @@ const Formular = () => (
                             <Form.Label>Ihre Email*</Form.Label>
                             <Form.Control type="email" required placeholder="Enter email" name={"_replyto"}/>
                         </Form.Group>
-                        <Form.Group controlId="exampleForm.ControlTextarea1">
+                        <Form.Group controlId="messageText">
                             <Form.Label>Ihre Nachricht*</Form.Label>
                             <Form.Control as="textarea" required name={"message"} rows="3"/>
                             <Form.Check  className="text-justify" type="checkbox" required label="Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden. Die Daten werden nach abgeschlossener Bearbeitung Ihrer Anfrage gelöscht."
