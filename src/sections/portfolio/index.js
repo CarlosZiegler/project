@@ -7,7 +7,7 @@ import "./style.css"
 import {graphql, StaticQuery} from "gatsby";
 
 
-const ImagesWP = () => (
+const portfolio = () => (
     <StaticQuery
         query={graphql`
     query MyQuery {
@@ -16,6 +16,7 @@ const ImagesWP = () => (
             node {
                 id
                 title
+                alt_text
                 link
             }
         }
@@ -23,29 +24,21 @@ const ImagesWP = () => (
 }
   `}
         render={data => (
-            <div>
-                {console.log(data)}
-            </div>)
-        }
+            <div id={"portfolio"}>
+            <Container>
+            <h3 className="text-center">Portfolio</h3>
+            <h5 className="text-center">
+            Treffen Sie unsere Arbeitserfahrung von Kunden
+            </h5>
+
+            <Carrousel images={data} />
+
+            </Container>
+            </div>
+        )}
     />
 );
 
-const portfolio = () => {
-
-    return (
-        <div id={"portfolio"}>
-        <Container>
-            <h3 className="text-center">Portfolio</h3>
-            <h5 className="text-center">
-                Treffen Sie unsere Arbeitserfahrung von Kunden
-            </h5>
-
-            <Carrousel/>
-        <ImagesWP/>
-        </Container>
-        </div>
-    );
-};
 
 
 export default portfolio;

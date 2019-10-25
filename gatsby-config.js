@@ -30,7 +30,8 @@ module.exports = {
            "**/media",
            "**/tags",
            "**/taxonomies",
-           "**/users"
+           "**/users",
+          "**/portfolio"
         ],
       }
     },
