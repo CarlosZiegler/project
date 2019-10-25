@@ -18,17 +18,19 @@ const Formular = () => (
                     <Form className={'formEmail'} action="https://formspree.io/mwgzwjpm" method="POST" >
                         <Form.Group controlId="name" >
                             <Form.Label>Ihre Name</Form.Label>
-                            <Form.Control type="text" placeholder="Enter name" name={"name"}/>
+                            <Form.Control type="text"  required placeholder="Enter name" name={"name"}/>
                         </Form.Group>
                         <Form.Group controlId="_replyto">
                             <Form.Label>Ihre Email*</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" name={"_replyto"}/>
+                            <Form.Control type="email" required placeholder="Enter email" name={"_replyto"}/>
                         </Form.Group>
                         <Form.Group controlId="exampleForm.ControlTextarea1">
                             <Form.Label>Ihre Nachricht*</Form.Label>
-                            <Form.Control as="textarea"  name={"message"} rows="3"/>
+                            <Form.Control as="textarea" required name={"message"} rows="3"/>
+                            <Form.Check  className="text-justify" type="checkbox" required label="Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden. Die Daten werden nach abgeschlossener Bearbeitung Ihrer Anfrage gelöscht."
+                            />
                         </Form.Group>
-                        <Button className="button__wrapper" variant="outline-primary" type="submit">
+                        <Button className="button__wrapper" variant="outline-primary btn-lg btn-block" type="submit" >
                             Submit
                         </Button>
                     </Form>
