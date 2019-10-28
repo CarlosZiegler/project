@@ -13,7 +13,7 @@ const Footer = () => (
         <div className="container">
             <div className="row">
                 <div className="col-lg-5 col-xs-12 about-company">
-                    <Image src={logo}/>
+                    <Image src={logo} alt={"logoVisyu"}/>
                     <p className="pr-5 textCopyright">Wir sind eine Webagentur in Berlin-Adlershof und haben unseren
                                                       Standort direkt auf dem WISTA-Gelände kurz hinter dem S-Bahnhof
                                                       Adlershof. </p>
