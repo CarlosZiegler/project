@@ -12,7 +12,7 @@ const Formular = () => (
             <h3 className={"text-center"}>Kontakt</h3>
             <Row>
                 <Col lg={true} xs={12}>
-                    <Image fluid src={ContactImage} width={"100%"}/>
+                    <Image fluid src={ContactImage} width={"100%"} alt={"contactimage"}/>
                 </Col>
                 <Col lg={true} xs>
                     <Form className={'formEmail'} action="https://formspree.io/mwgzwjpm" method="POST" >
