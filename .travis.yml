@@ -16,6 +16,6 @@ before_script:
   - "npm i -g gatsby"
   - "npm i"
 script:
-  - "npm run cypress:run"
+  - "npm run test:e2e"
 after_success:
   - "npm run deploy"
