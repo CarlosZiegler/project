@@ -34,7 +34,7 @@ function scrollFunction() {
 
 
 const IndexPage = () => (
-    <Layout>
+    <Layout >
         <SEO title="Visyu"/>
         <Menu/>
         <Header/>

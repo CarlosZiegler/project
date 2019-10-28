@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-context('Actions', () => {
+context('Forms', () => {
     beforeEach(() => {
         cy.visit('http://localhost:8000/')
 
@@ -9,6 +9,7 @@ context('Actions', () => {
 
     it('.type() - type into a DOM element', () => {
         // https://on.cypress.io/type
+        cy.screenshot()
 
         cy.get('#name')
             .type('carlos').should('have.value', 'carlos')
