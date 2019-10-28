@@ -5,13 +5,10 @@ cache:
   directories:
     - node_modules
 deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: 013b793523d7adb15dd419a13129e4180c4e28d3
-  local_dir: public
-  keep-history: true
-  on:
-    branch: master
+  provider: netlify
+    site: https://projektihklandingpage.netlify.com/
+    auth: 9d1b530b-6c15-427f-ae38-be0d4836cebf
+    edge: true # opt in to dpl v2
 before_script:
   - "npm i -g gatsby"
   - "npm i"
