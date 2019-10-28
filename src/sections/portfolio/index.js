@@ -30,9 +30,7 @@ const portfolio = () => (
             <h5 className="text-center">
             Treffen Sie unsere Arbeitserfahrung von Kunden
             </h5>
-
             <Carrousel images={data} />
-
             </Container>
             </div>
         )}

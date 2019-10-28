@@ -41,10 +41,8 @@ const Impressum = () => (
                    Am Studio 2a <br/>
                    12489 Berlin <br/>
                    Deutschland <br/>
-
                    Telefon: +49 30 / 374 348 14 <br/>
                    E-Mail: info@visyu.de <br/>
-
                    USt-IdNr.: DE269492679</p>
                 <h3>Haftung für Inhalte</h3>
                 <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den

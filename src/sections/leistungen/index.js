@@ -42,7 +42,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={Screen}  alt={"computer_bild"}/>
+                            <Card.Img variant="top" src={Screen} alt={"computer_bild"}/>
                             <Card.Body>
                                 <Card.Title className={"text-center"}><h3>Design</h3></Card.Title>
                                 <Card.Text className={"text-justify"}>
@@ -55,7 +55,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={Responsive}  alt={"responsive_logo"}/>
+                            <Card.Img variant="top" src={Responsive} alt={"responsive_logo"}/>
                             <Card.Body>
                                 <Card.Title className={"text-center"}><h3>Responsiv</h3></Card.Title>
                                 <Card.Text className={"text-justify"}>
@@ -70,7 +70,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={SeoIcon}  alt={"seo_icon"}/>
+                            <Card.Img variant="top" src={SeoIcon} alt={"seo_icon"}/>
                             <Card.Body>
                                 <Card.Title className={"text-center"}><h3>SEO</h3></Card.Title>
                                 <Card.Text className={"text-justify"}>
@@ -82,7 +82,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={Frontend}  alt={"front_end_icon"}/>
+                            <Card.Img variant="top" src={Frontend} alt={"front_end_icon"}/>
                             <Card.Body>
                                 <Card.Title className={"text-center"}><h3>FRONTEND</h3></Card.Title>
                                 <Card.Text className={"text-justify"}>
@@ -94,7 +94,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={Backend}  alt={"backend_icon"} />
+                            <Card.Img variant="top" src={Backend} alt={"backend_icon"}/>
                             <Card.Body>
                                 <Card.Title className={"text-center"}><h3>BACKEND</h3></Card.Title>
                                 <Card.Text className={"text-justify"}>
@@ -106,7 +106,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={Cart}  alt={"cart_icon"}/>
+                            <Card.Img variant="top" src={Cart} alt={"cart_icon"}/>
                             <Card.Body>
                                 <Card.Title className={"text-center"}><h3>E-COMMERCE</h3></Card.Title>
                                 <Card.Text className={"text-justify"}>
@@ -117,7 +117,7 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src={Plugin}  alt={"plugin_icon"}/>
+                            <Card.Img variant="top" src={Plugin} alt={"plugin_icon"}/>
                             <Card.Body>
                                 <Card.Title className={"text-center"}><h3>THEMES UND PLUGINS</h3></Card.Title>
                                 <Card.Text className={"text-justify"}>
@@ -128,9 +128,9 @@ const Leistungen = () => {
                             </Card.Body>
                         </Card>
                     </CardDeck>
+                </Container>
+                <Row/>
             </Container>
-            <Row/>
-        </Container>
         </div>
     );
 };
