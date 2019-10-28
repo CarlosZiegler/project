@@ -3,8 +3,8 @@ import {Col, Row, Container, Image, CardDeck, Card} from "react-bootstrap";
 
 
 import "./style.css"
-import ImageWordpress from "../../images/wordpressImage.png";
-import Freelancer from "../../images/freelancer.jpg";
+import ImageWordpress from "../../images/wordpressImage_opt.png";
+import Freelancer from "../../images/freelancer_opt.jpg";
 import Themes from "../../images/drawing-compass.png"
 import Plugins from "../../images/plug-silhouette.png";
 import Sicherheit from "../../images/locked-padlock.png";

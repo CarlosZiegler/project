@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Landingpage for Visyu Solution with Gatsby and Wordpress Headless
 </h1>
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
@@ -93,5 +93,15 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+React components
+Teste com Cypress
+Carrousel
+Graphql
+Wordpress Rest API
+React-Bootstrap
+gatsby-source-wordpress
+    
+
 
 <!-- AUTO-GENERATED-CONTENT:END -->

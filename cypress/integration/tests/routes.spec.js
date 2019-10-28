@@ -5,13 +5,9 @@ context('Forms', () => {
         cy.visit('http://localhost:8000/')
 
     })
-
-
     it('page', () => {
         // https://on.cypress.io/type
         cy.screenshot()
-
-
     })
 
 })
