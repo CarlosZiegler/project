@@ -16,6 +16,6 @@ before_script:
   - "npm i -g gatsby"
   - "npm i"
 script:
-  - "npx start-server-and-test develop http://localhost:8000 cy:open"
+  - "npm run cy:open"
 after_success:
   - "npm run deploy"
