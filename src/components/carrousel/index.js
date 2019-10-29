@@ -14,7 +14,6 @@ export default (props) => (
     <div>
         <Carousel autoPlay infiniteLoop>
             {
-
                 filterImages(props).map((imagePortfolio) => (
 
                     <div key={imagePortfolio.node.id}>
