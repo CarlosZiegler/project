@@ -5,7 +5,6 @@ import {Container, Form, Button, Col, Row, Image} from 'react-bootstrap';
 import "./style.css";
 import ContactImage from "../../images/contactImage_opt.jpg";
 
-
 const Formular = () => (
     <div id={"kontakt"}>
         <Container>

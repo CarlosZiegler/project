@@ -42,13 +42,3 @@ const Menu = () => {
 
 export default Menu
 
-/*
-<Nav>
-                        <Link className={"link"} to="/#leistungen">Leistungen</Link>
-                        <Link className={"link"} to="/#wordpress">Wordpress</Link>
-                        <Link className={"link"} to="/#portfolio">Portfolio</Link>
-                        <Link className={"link"} to="/blog">Blog</Link>
-                        <Link className={"link"} to="/jobs">Jobs</Link>
-                        <Link className={"link"} to="/#kontakt">Kontakt</Link>
-                    </Nav>
-*/

@@ -16,16 +16,18 @@ const BannerBox = () => {
         }}>
         <BannerWrapper>
             <Col lg={4}>
-            <h3>{content.branche}</h3>
+                <h3>{content.branche}</h3>
+            </Col>
+            <Col lg={4}><p>Wir bieten Ihnen Lösungen für jedes Endgerät. Egal ob Desktop, Laptop, TV oder mobil. Unsere
+                           Web-
+                           und App-Lösungen passen zu Ihren Bedürfnissen.</p>
+            </Col>
 
-            </Col>
-            <Col lg={4}><p>Wir bieten Ihnen Lösungen für jedes Endgerät. Egal ob Desktop, Laptop, TV oder mobil. Unsere Web-
-               und App-Lösungen passen zu Ihren Bedürfnissen.</p>
-            </Col>
-            
             <Col lg={4}>
                 <p>Interesse an einer professionellen WordPress-Website?</p>
-                <a href={'/#kontakt'} className="button__wrapper"><Button className="button__wrapper" variant="outline-primary" >Jetzt Kontaktieren</Button></a>
+                <a href={'/#kontakt'} className="button__wrapper"><Button className="button__wrapper"
+                                                                          variant="outline-primary">Jetzt
+                                                                                                    Kontaktieren</Button></a>
             </Col>
         </BannerWrapper>
         </div>

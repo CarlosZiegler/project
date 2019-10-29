@@ -106,25 +106,25 @@ PostTemplate.propTypes = {
 export default PostTemplate;
 
 export const pageQuery = graphql`
-query($id: String!) {
-    wordpressPost(id: {eq: $id}) {
-    title
-    content
-    excerpt
-    date(formatString: "DD, MMM YYYY")
-    slug
-    featured_media{
-    localFile{
-    childImageSharp{
-    id
-    sizes( maxWidth: 800 ) {
-    ...GatsbyImageSharpSizes
-}
-}
-}
-}
-
-
-}
-}
+    query($id: String!) {
+            wordpressPost(id: {eq: $id}) {
+                title
+                content
+                excerpt
+                date(formatString: "DD, MMM YYYY")
+                slug
+                featured_media{
+                            localFile{
+                                childImageSharp{
+                                        id
+                                        sizes( maxWidth: 800 ) {
+                                                    ...GatsbyImageSharpSizes
+                                                    }
+                                }
+                            }
+                }
+    
+    
+             }
+    }
 `;

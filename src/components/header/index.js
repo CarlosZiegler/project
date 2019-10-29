@@ -10,7 +10,6 @@ import "./index.css";
 
 const Header = ({siteTitle}) => (
 
-
     <Jumbotron fluid>
         <BannerSection/>
     </Jumbotron>

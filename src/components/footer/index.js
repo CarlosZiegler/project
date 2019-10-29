@@ -2,7 +2,6 @@ import React from "react"
 import {Image} from "react-bootstrap";
 import logo from "../../images/logo.png";
 
-
 import "./style.css";
 import {Link} from "gatsby";
 
