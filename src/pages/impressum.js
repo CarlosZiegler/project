@@ -33,8 +33,8 @@ const Impressum = () => (
     <Layout className={"content"}>
         <SEO title="Impressum"/>
         <Menu/>
-        <Container className={'container content'} >
-            <div  className={"text-justify"}>
+        <Container className={'container content '} >
+            <div  id={"impressum_page"} className={"text-justify content-body"}>
                 <h1>Impressum</h1>
                 <p><strong>Visyu Solution</strong><br/>
                    Felix Griewald <br/>

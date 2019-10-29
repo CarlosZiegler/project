@@ -150,3 +150,7 @@ ul {
     font-weight: 600;
     color: #13235b;
 }
+.blank{
+    height: 550px;
+    background-size: cover;
+}

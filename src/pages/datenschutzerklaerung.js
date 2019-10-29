@@ -34,7 +34,7 @@ const Datenschutz = () => (
         <SEO title="Impressum"/>
         <Menu/>
         <Container className={'container content'}>
-            <div  className={"text-justify"}>
+            <div id={"datenschutzerklaerung_page"} className={"text-justify content-body"}>
                 <h2>Datenschutzerklärung</h2>
                 <h3>1. Datenschutz auf einen Blick</h3>
                 <h4>Allgemeine Hinweise</h4>

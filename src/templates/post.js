@@ -37,7 +37,7 @@ const PostTemplate = (props) => {
     const {data: {wordpressPost: post}} = props;
 
     return (
-        <Layout>
+        <Layout  >
             <SEO title={post.title}/>
             <Menu/>
             <Helmet
@@ -49,7 +49,7 @@ const PostTemplate = (props) => {
             <Container className={'container content'}>
                 <article className={'text-justify'}>
                     <section className="container-fluid main-body">
-                        <div className="content-description">
+                        <div id={"post_page"} className="content-description">
                             <h1 dangerouslySetInnerHTML={{__html: post.title}}/>
                             <div className="content-body">
                                 <p dangerouslySetInnerHTML={{__html: post.content}}/>

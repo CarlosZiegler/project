@@ -15,7 +15,6 @@ if (typeof window !== "undefined") {
         scrollFunction()
     };
 
-
 }
 
 function scrollFunction() {
@@ -30,39 +29,37 @@ function scrollFunction() {
     }
 }
 
-
 const Blog = () => (
     <StaticQuery
         query={graphql`
-    query BlogAllPostQuery {
-      allWordpressPost(sort: { fields: [date], order:DESC }) {
-        edges {
-          node {
-            date(formatString: "DD, MMM YYYY")
-            title
-            excerpt
-            featured_media {
-                localFile {
-                url
+            query BlogAllPostQuery {
+              allWordpressPost(sort: { fields: [date], order:DESC }) {
+                edges {
+                  node {
+                    date(formatString: "DD, MMM YYYY")
+                    title
+                    excerpt
+                    featured_media {
+                       localFile {
+                       url
+                       }
+                     }
+                    slug
+                    id
+                    tags{
+                        name
+                        id
+                        }
+                  }
                 }
-             }
-            slug
-            id
-            tags{
-                name
-                id
-                }
-
-          }
-        }
-      }
-    }
-  `}
+              }
+            }
+        `}
         render={data => (
             <Layout id={"content"}>
                 <SEO title="Blog"/>
                 <Menu/>
-                <main className={"main_page"}>
+                <main id={"blog_page"} className={"main_page"}>
                     <h1>Blog</h1>
                     <div className="main">
                         <div className="cards_">
@@ -81,7 +78,7 @@ const Blog = () => (
                                         </div>
                                         <div className=" card-footer ">
                                             <Link to={`/${node.slug}`}>
-                                                <button className="btn btn-secondary btn-lg btn-block">Weiterlesen...
+                                                <button id={"btn_post"} className="btn btn-secondary btn-lg btn-block">Weiterlesen...
                                                 </button>
                                             </Link>
                                             <footer className="blockquote-footer"
@@ -117,7 +114,6 @@ const Blog = () => (
                     der Nutzung unserer Website gesetzt werden sollen. <a href={"/datenschutzerklaerung/"}>Mehr auf
                                                                                                            Datenschutzerklärung</a>
 
-
                 </CookieConsent>
                 <Footer/>
             </Layout>)
@@ -125,11 +121,4 @@ const Blog = () => (
     />
 );
 
-
 export default Blog;
-
-
-
-
-
-

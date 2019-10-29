@@ -35,7 +35,7 @@ const JobsPage = () => (
         <SEO title="Jobs"/>
         <Menu/>
         <Container className={'container content'}>
-            <div className={"text-justify"}>
+            <div id={"jobs_page"} className={"text-justify content-body"}>
                 <h2>Praktikum Webentwicklung (m/w) </h2>
                 <p>Visyu Solution ist eine junge Webagentur im Herzen des größten Wissenschaftsgeländes Deutschlands –
                    in Berlin-Adlershof. Wir bieten verschiedene Dienstleistungen im Bereich Web und Mobile an,
