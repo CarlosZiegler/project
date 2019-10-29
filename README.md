@@ -101,7 +101,8 @@ Graphql
 Wordpress Rest API
 React-Bootstrap
 gatsby-source-wordpress
-    
-
+Gatsby    
+Problemas
+Forms
 
 <!-- AUTO-GENERATED-CONTENT:END -->

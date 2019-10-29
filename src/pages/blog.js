@@ -11,7 +11,9 @@ import CookieConsent from "react-cookie-consent";
 
 if (typeof window !== "undefined") {
 
-    window.onscroll = function() {scrollFunction()};
+    window.onscroll = function () {
+        scrollFunction()
+    };
 
 
 }
@@ -68,18 +70,14 @@ const Blog = () => (
                                 <div key={node.id} className="cards_item_">
                                     <div className="card_ card_ border-primary-blog">
                                         <div className="card_image card-img-top-blog "><Image
-                                            className={"card-img-top-blog"} src={node.featured_media.localFile.url} alt={node.title}/>
+                                            className={"card-img-top-blog"} src={node.featured_media.localFile.url}
+                                            alt={node.title}/>
                                         </div>
                                         <div className="card_content_ card-body text-secondary">
                                             <h5 className="card-title_ text-secondary"
                                                 dangerouslySetInnerHTML={{__html: node.title}}/>
-                                            <p className="card_text_ text-secondary"
+                                            <h5 className="card_text_ text-secondary"
                                                dangerouslySetInnerHTML={{__html: node.excerpt}}/>
-                                               <div className={"align-text-bottom"}>
-                                            {/*{node.tags.map(tag=> <span key={tag.id} className="cat align-text-bottom "
-                                                                       dangerouslySetInnerHTML={{__html: " #" + tag.name}}></span>)}*/}
-                                               </div>
-
                                         </div>
                                         <div className=" card-footer ">
                                             <Link to={`/${node.slug}`}>
